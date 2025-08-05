@@ -1,14 +1,15 @@
 entries: map[hash,embed] = {
-    "insertvfxsystemname" = VfxSystemDefinitionData {
+
+# VFX_HUB_NAME: auroraexplison
+# VFX_HUB_DESCRIPTION: auroraexplison
+# VFX_HUB_CATEGORY: explosions
+# VFX_HUB_EMITTERS: 15
+    "Aurora_Base_R_AoERingRecast" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
-            #insertvfxemitterdefinitiondatahere
-        }
-        particleName: string = "insertvfxsystemname"
-        particlePath: string = "insertvfxsystemname"
-    }
-    "Characters/Aurora/Skins/Skin0/Resources" = ResourceResolver {
-        resourceMap: map[hash,link] = {
-            "insertvfxsystemname" = "insertvfxsystemname"
-        }
-    }
-}
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 50
+                }
+
+     # VFX systems will be added below
+ }
