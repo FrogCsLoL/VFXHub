@@ -255,6 +255,16 @@
       "assets": [],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-08-05"
+    },
+    "wegotesta": {
+      "name": "wegotesta",
+      "description": "wegotesta",
+      "emitters": 6,
+      "category": "explosions",
+      "file": "explosionvfxs.py",
+      "assets": [],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2025-08-05"
     }
   }
 }
