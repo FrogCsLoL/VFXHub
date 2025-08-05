@@ -117,11 +117,52 @@ entries: map[hash,embed] = {
         particleName: string = "newtest"
         particlePath: string = "newtest"
     }
+
+# VFX_HUB_NAME: blablatest
+# VFX_HUB_DESCRIPTION: blablatest
+# VFX_HUB_CATEGORY: explosions
+# VFX_HUB_EMITTERS: 10
+    "blablatest" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.200000003
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Flash"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleColorTexture: string = "ASSETS/vfxhub/blablatest_texture.tex"
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 1 }
+                }
+                pass: i16 = 5
+                meshRenderFlags: u8 = 0
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 100, 100, 100 }
+                }
+            }
+        }
+        particleName: string = "blablatest"
+        particlePath: string = "blablatest"
+    }
+
      "Characters/Aurora/Skins/Skin0/Resources" = ResourceResolver {
         resourceMap: map[hash,link] = {
             "Aurora_Base_Emote_Dance" = "Aurora_Base_Emote_Dance"
             "ebay" = "ebay"
             "newtest" = "newtest"
+            "blablatest" = "blablatest"
         }
      }
 } 
