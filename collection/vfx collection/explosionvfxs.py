@@ -1,8 +1,9 @@
 
-# VFX_HUB_NAME: ebay
-# VFX_HUB_DESCRIPTION: ebayname
-# VFX_HUB_CATEGORY: explosions
-# VFX_HUB_EMITTERS: 6
+entries: map[hash,embed] = {
+    # VFX_HUB_NAME: ebay
+    # VFX_HUB_DESCRIPTION: ebayname
+    # VFX_HUB_CATEGORY: explosions
+    # VFX_HUB_EMITTERS: 6
     "ebay" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
@@ -1648,4 +1649,5 @@
             "test" = "test"
         }
     }
+}
 }
