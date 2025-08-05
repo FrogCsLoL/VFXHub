@@ -1,5 +1,44 @@
 entries: map[hash,embed] = {
 
+# VFX_HUB_NAME: test2
+# VFX_HUB_DESCRIPTION: test2
+# VFX_HUB_CATEGORY: explosions
+# VFX_HUB_EMITTERS: 6
+    "Aurora_Base_Emote_Dance" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.200000003
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Flash"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleColorTexture: string = "ASSETS/vfxhub/test2_texture.tex"
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 1 }
+                }
+                pass: i16 = 5
+                meshRenderFlags: u8 = 0
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 100, 100, 100 }
+                }
+            }
+        }
+        particleName: string = "Aurora_Base_Emote_Dance"
+        particlePath: string = "Aurora_Base_Emote_Dance"
+    }
+
 # VFX_HUB_NAME: ebay
 # VFX_HUB_DESCRIPTION: ebayname
 # VFX_HUB_CATEGORY: explosions
@@ -41,8 +80,49 @@ entries: map[hash,embed] = {
 
     "Characters/Aurora/Skins/Skin0/Resources" = ResourceResolver {
         resourceMap: map[hash,link] = {
-       
+            "Aurora_Base_Emote_Dance" = "Aurora_Base_Emote_Dance"
             "ebay" = "ebay"
+
+# VFX_HUB_NAME: newtest
+# VFX_HUB_DESCRIPTION: newtest
+# VFX_HUB_CATEGORY: explosions
+# VFX_HUB_EMITTERS: 5
+    "newtest" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.200000003
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Flash"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleColorTexture: string = "ASSETS/vfxhub/newtest_texture.tex"
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 1 }
+                }
+                pass: i16 = 5
+                meshRenderFlags: u8 = 0
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 100, 100, 100 }
+                }
+            }
+        }
+        particleName: string = "newtest"
+        particlePath: string = "newtest"
+    }
+
+            "newtest" = "newtest"
         }
     }
 } 
