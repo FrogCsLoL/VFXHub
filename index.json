@@ -36,6 +36,24 @@
       ],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-08-05"
+    },
+    "ebay": {
+      "name": "ebay",
+      "description": "ebayname",
+      "emitters": 6,
+      "category": "explosions",
+      "file": "explosionvfxs.py",
+      "assets": [
+        "collection/assets/vfxhub/ahri_skin88_color-hold.skins_ahri_skin88_ebay.tex",
+        "collection/assets/vfxhub/common_flarebuilding.skins_ahri_skin88_ebay.tex",
+        "collection/assets/vfxhub/ahri_skin88_q_stars.skins_ahri_skin88_ebay.dds",
+        "collection/assets/vfxhub/ahri_skin88_ba_smoke.skins_ahri_skin88_ebay.dds",
+        "collection/assets/vfxhub/rammus_skin999_dash.skins_ahri_skin88_ebay.tex",
+        "collection/assets/vfxhub/ahri_ball32_02.skins_ahri_skin88_ebay.tex",
+        "collection/assets/vfxhub/rammus_skin999_ba_bubble01.skins_ahri_skin88_ebay.dds"
+      ],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2025-08-05"
     }
   }
 }
