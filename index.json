@@ -289,10 +289,10 @@
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-08-05"
     },
-    "wetest": {
-      "name": "wetest",
-      "description": "wetest",
-      "emitters": 19,
+    "wetestteemo": {
+      "name": "wetestteemo",
+      "description": "wetestteemo",
+      "emitters": 14,
       "category": "explosions",
       "file": "explosionvfxs.py",
       "assets": [],
