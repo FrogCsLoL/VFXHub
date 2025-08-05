@@ -4,7 +4,7 @@ entries: map[hash,embed] = {
 # VFX_HUB_DESCRIPTION: test3
 # VFX_HUB_CATEGORY: explosions
 # VFX_HUB_EMITTERS: 8
-    "test3" =     "Characters/Aurora/Skins/Skin0/Particles/Aurora_Base_W_JumpDust" = VfxSystemDefinitionData {
+    "test3" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
