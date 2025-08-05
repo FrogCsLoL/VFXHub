@@ -8993,7 +8993,7 @@ entries: map[hash,embed] = {
 # VFX_HUB_DESCRIPTION: kingsetttest
 # VFX_HUB_CATEGORY: explosions
 # VFX_HUB_EMITTERS: 19
-    "kingsetttest" =     "kingsetttest" = VfxSystemDefinitionData {
+    "kingsetttest" =  VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
