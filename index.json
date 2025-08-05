@@ -275,6 +275,19 @@
       "assets": [],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-08-05"
+    },
+    "testassetpath3": {
+      "name": "testassetpath3",
+      "description": "testassetpath3",
+      "emitters": 3,
+      "category": "explosions",
+      "file": "explosionvfxs.py",
+      "assets": [
+        "collection/assets/vfxhub/sett_skin45_energy_trail_testassetpath3.tex",
+        "collection/assets/vfxhub/sett_skin45_fire_trail_graphic_testassetpath3.tex"
+      ],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2025-08-05"
     }
   }
 }
