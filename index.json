@@ -37,20 +37,21 @@
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-08-05"
     },
-    "ebay": {
-      "name": "ebay",
-      "description": "ebayname",
-      "emitters": 6,
+    "test": {
+      "name": "test",
+      "description": "test",
+      "emitters": 5,
       "category": "explosions",
       "file": "explosionvfxs.py",
       "assets": [
-        "collection/assets/vfxhub/ahri_skin88_color-hold.skins_ahri_skin88_ebay.tex",
-        "collection/assets/vfxhub/common_flarebuilding.skins_ahri_skin88_ebay.tex",
-        "collection/assets/vfxhub/ahri_skin88_q_stars.skins_ahri_skin88_ebay.dds",
-        "collection/assets/vfxhub/ahri_skin88_ba_smoke.skins_ahri_skin88_ebay.dds",
-        "collection/assets/vfxhub/rammus_skin999_dash.skins_ahri_skin88_ebay.tex",
-        "collection/assets/vfxhub/ahri_ball32_02.skins_ahri_skin88_ebay.tex",
-        "collection/assets/vfxhub/rammus_skin999_ba_bubble01.skins_ahri_skin88_ebay.dds"
+        "collection/assets/vfxhub/color-hold.tft_set15_test.dds",
+        "collection/assets/vfxhub/common_flare-fireblue.aurora_test.tex",
+        "collection/assets/vfxhub/aurora_base_trail01.aurora_test.tex",
+        "collection/assets/vfxhub/aurora_base_r_backdrop.aurora_test.tex",
+        "collection/assets/vfxhub/aurora_base_r_stardust.aurora_test.tex",
+        "collection/assets/vfxhub/vayne_base_taunt_flecks.aurora_test.tex",
+        "collection/assets/vfxhub/aurora_base_q_mis.aurora_test.scb",
+        "collection/assets/vfxhub/aurora_base_q_mis.aurora_test.tex"
       ],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-08-05"
