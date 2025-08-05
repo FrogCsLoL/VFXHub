@@ -3,7 +3,7 @@
 # VFX_HUB_DESCRIPTION: ebayname
 # VFX_HUB_CATEGORY: explosions
 # VFX_HUB_EMITTERS: 6
-    "ebay" =     "Characters/Aurora/Skins/Skin0/Particles/Aurora_Base_BA_tar" = VfxSystemDefinitionData {
+    "ebay" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -896,7 +896,7 @@
             }
         }
         particleName: string = "ebay"
-        particlePath: string = "Characters/ebay"
+        particlePath: string = "ebay"
     }
 
 
@@ -904,7 +904,7 @@
 # VFX_HUB_DESCRIPTION: test
 # VFX_HUB_CATEGORY: explosions
 # VFX_HUB_EMITTERS: 5
-    "test" =     "Characters/Aurora/Skins/Skin0/Particles/Aurora_Base_R_CastWand" = VfxSystemDefinitionData {
+    "test" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.600000024
@@ -1638,8 +1638,14 @@
             }
         }
         particleName: string = "test"
-        particlePath: string = "Characters/test"
+        particlePath: string = "test"
         flags: u16 = 198
     }
 
+    "Characters/Aurora/Skins/Skin0/Resources" = ResourceResolver {
+        resourceMap: map[hash,link] = {
+            "ebay" = "ebay"
+            "test" = "test"
+        }
+    }
 }
