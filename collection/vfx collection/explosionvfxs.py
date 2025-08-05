@@ -15295,6 +15295,7 @@ entries: map[hash,embed] = {
         soundOnCreateDefault: string = "Play_sfx_Sett_SettW_maxed_oba"
     }
 
+
 # VFX_HUB_NAME: isitfixed
 # VFX_HUB_DESCRIPTION: te
 # VFX_HUB_CATEGORY: explosions
