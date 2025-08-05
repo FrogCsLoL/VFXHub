@@ -5387,6 +5387,244 @@ entries: map[hash,embed] = {
         }
     }
 
+# VFX_HUB_NAME: testassetpath2
+# VFX_HUB_DESCRIPTION: testassetpath2
+# VFX_HUB_CATEGORY: explosions
+# VFX_HUB_EMITTERS: 3
+    "testassetpath2" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = -1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Fresnel2"
+                importance: u8 = 4
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 10, 0, 10 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 10, 0, 10 }
+                        }
+                    }
+                }
+                Linger: pointer = VfxLingerDefinitionData {
+                    UseSeparateLingerColor: flag = true
+                    SeparateLingerColor: embed = ValueColor {
+                        dynamics: pointer = VfxAnimatedColorVariableData {
+                            times: list[f32] = {
+                                0.5
+                                1
+                            }
+                            values: list[vec4] = {
+                                { 1, 1, 1, 1 }
+                                { 1, 1, 1, 0 }
+                            }
+                        }
+                    }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveAttachedMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSubmeshesToDraw: list[hash] = {
+                            "BODY"
+                        }
+                        mLockMeshToAttachment: bool = true
+                    }
+                }
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.400000006 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.52617687, 0.227450982, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.300000012
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.741176486, 0, 0.109803922, 1 }
+                            { 0.741176486, 0, 0.109803922, 1 }
+                            { 0.741176486, 0, 0.109803922, 1 }
+                        }
+                    }
+                }
+                pass: i16 = 1
+                reflectionDefinition: pointer = VfxReflectionDefinitionData {
+                    reflectionMapTexture: string = "ASSETS/vfxhub/generic_white_cubemap_testassetpath2.dds"
+                    reflectionOpacityDirect: f32 = -1
+                    reflectionOpacityGlancing: f32 = 0.100000001
+                    reflectionFresnel: f32 = 0.300000012
+                    reflectionFresnelColor: vec4 = { 0.741176486, 0, 0.109803922, 1 }
+                    fresnel: f32 = 0.100000001
+                    fresnelColor: vec4 = { 0, 0, 0, 1 }
+                }
+                particleIsLocalOrientation: flag = true
+                isUniformScale: flag = true
+                hasPostRotateOrientation: flag = true
+                isRandomStartFrame: flag = true
+                isRotationEnabled: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 180, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.00199997, 1, 1 }
+                }
+                texture: string = "ASSETS/vfxhub/sett_skin45_noise_perlin_testassetpath2.tex"
+                numFrames: u16 = 4
+                birthUvScrollRate: embed = ValueVector2 {
+                    constantValue: vec2 = { 0.400000006, 0.200000003 }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = -1
+                }
+                particleLinger: option[f32] = {
+                    0.400000006
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "MaterialSwap"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.0509803928, 0.0509803928, 0.0509803928, 0.650003791 }
+                }
+                pass: i16 = 102
+                meshRenderFlags: u8 = 0
+                depthBiasFactors: vec2 = { -1, -80 }
+                particleIsLocalOrientation: flag = true
+                isUniformScale: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 180, 90 }
+                }
+                materialOverrideDefinitions: list[embed] = {
+                    VfxMaterialOverrideDefinitionData {
+                        subMeshName: option[string] = {
+                            "Body"
+                        }
+                        material: link = "Characters/Sett/Skins/Skin45/Materials/Sett_Skin45_Body_ToonShading_Grit_inst"
+                    }
+                }
+                texAddressModeBase: u8 = 2
+                particleUVRotateRate: embed = IntegratedValueFloat {
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            0
+                        }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = -1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Avatar8"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveAttachedMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSubmeshesToDraw: list[hash] = {
+                            "BODY"
+                        }
+                        mLockMeshToAttachment: bool = true
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.741176486, 0, 0.109803922, 0.349996179 }
+                }
+                pass: i16 = 800
+                alphaRef: u8 = 0
+                0xcb13aff1: f32 = -0.5
+                particleIsLocalOrientation: flag = true
+                isUniformScale: flag = true
+                isRandomStartFrame: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 180, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.00300002, 1, 1 }
+                }
+                texture: string = "ASSETS/vfxhub/sett_skin45_w_mask_avt_01_testassetpath2.tex"
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/vfxhub/sett_skin45_ba_einstein_01_mult_testassetpath2.tex"
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 3, 2 }
+                    }
+                    birthUvScrollRateMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0.100000001, 1 }
+                    }
+                }
+            }
+        }
+        particleName: string = "testassetpath2"
+        particlePath: string = "testassetpath2"
+        soundOnCreateDefault: string = "Play_sfx_Sett_SettW_maxed_oba"
+    }
+
+
 
 
 
@@ -5414,6 +5652,7 @@ entries: map[hash,embed] = {
             "kingsetttest22" = "kingsetttest22"
             "isitfixed" = "isitfixed"
             "wegotesta" = "wegotesta"
+            "testassetpath2" = "testassetpath2"
         }
      }
 } 
