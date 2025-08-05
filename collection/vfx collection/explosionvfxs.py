@@ -78,10 +78,6 @@ entries: map[hash,embed] = {
         particlePath: string = "ebay"
     }
 
-    "Characters/Aurora/Skins/Skin0/Resources" = ResourceResolver {
-        resourceMap: map[hash,link] = {
-            "Aurora_Base_Emote_Dance" = "Aurora_Base_Emote_Dance"
-            "ebay" = "ebay"
 
 # VFX_HUB_NAME: newtest
 # VFX_HUB_DESCRIPTION: newtest
@@ -121,8 +117,11 @@ entries: map[hash,embed] = {
         particleName: string = "newtest"
         particlePath: string = "newtest"
     }
-
+     "Characters/Aurora/Skins/Skin0/Resources" = ResourceResolver {
+        resourceMap: map[hash,link] = {
+            "Aurora_Base_Emote_Dance" = "Aurora_Base_Emote_Dance"
+            "ebay" = "ebay"
             "newtest" = "newtest"
         }
-    }
+     }
 } 
