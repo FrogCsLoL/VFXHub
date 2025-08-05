@@ -245,6 +245,16 @@
       "assets": [],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-08-05"
+    },
+    "isitfixed": {
+      "name": "isitfixed",
+      "description": "te",
+      "emitters": 8,
+      "category": "explosions",
+      "file": "explosionvfxs.py",
+      "assets": [],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2025-08-05"
     }
   }
 }
