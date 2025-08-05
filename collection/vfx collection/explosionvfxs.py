@@ -1,5 +1,22 @@
 entries: map[hash,embed] = {
 
+# VFX_HUB_NAME: test2
+# VFX_HUB_DESCRIPTION: test2
+# VFX_HUB_CATEGORY: explosions
+# VFX_HUB_EMITTERS: 25
+    "Aurora_Base_R_AoERingExpand" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 30
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                       
+
+
 # VFX_HUB_NAME: test
 # VFX_HUB_DESCRIPTION: test
 # VFX_HUB_CATEGORY: explosions
