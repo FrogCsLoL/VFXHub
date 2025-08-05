@@ -8548,6 +8548,1879 @@ entries: map[hash,embed] = {
         }
     }
 
+# VFX_HUB_NAME: qmisahritest
+# VFX_HUB_DESCRIPTION: qmisahritest
+# VFX_HUB_CATEGORY: explosions
+# VFX_HUB_EMITTERS: 22
+"qmisahritest" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 50
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[f32] = {
+                            50
+                            0
+                        }
+                    }
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.20000005
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.600000024
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            1.20000005
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    0.600000024
+                }
+                lifetime: option[f32] = {
+                    5
+                }
+                emitterName: string = "petalSwirl"
+                importance: u8 = 2
+                birthOrbitalVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 1, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -2
+                                    2
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 1, 0 }
+                        }
+                    }
+                }
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 150, 950, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 150, 950, 0 }
+                        }
+                    }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 2, 3, 2 }
+                }
+                worldAcceleration: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, -130, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, -130, 0 }
+                        }
+                    }
+                }
+                SpawnShape: pointer = VfxShapeCylinder {
+                    flags: u8 = 1
+                    radius: f32 = 50
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.379995435, 0.469993144, 0.749996185 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.200000003
+                            0.699999988
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 10
+                colorLookUpTypeY: u8 = 3
+                isRandomStartFrame: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    360
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    constantValue: vec3 = { 300, 300, 300 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 300, 300, 300 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 8, 10, 10 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 8, 10, 10 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.29999995, 1.29999995, 1.29999995 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1.29999995, 1.29999995, 1.29999995 }
+                            { 0.649999976, 0.649999976, 0.649999976 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/Ahri_Skin01_PlumPetal_qmisahritest.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 80
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.5
+                }
+                particleLinger: option[f32] = {
+                    0.25
+                }
+                lifetime: option[f32] = {
+                    4
+                }
+                emitterName: string = "GlowTrail2"
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 50, 0 }
+                }
+                primitive: pointer = VfxPrimitiveCameraTrail {
+                    mTrail: embed = VfxTrailDefinitionData {
+                        mCutoff: f32 = 1000
+                        mBirthTilingSize: embed = ValueVector3 {
+                            constantValue: vec3 = { 1000, 0, 0 }
+                        }
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.300007641 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.0850000009
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 0.300007641 }
+                            { 1, 1, 1, 0.300007641 }
+                        }
+                    }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.200000003
+                            0.400000006
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.564706028, 0.956862986, 1, 0 }
+                            { 1, 0.454901963, 0.792156875, 1 }
+                            { 1, 0.349019617, 0.631372571, 1 }
+                            { 0.880003035, 0.190005347, 0.439993888, 0.39000535 }
+                            { 0.741176486, 0, 0.0117647061, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 1
+                particleIsLocalOrientation: flag = true
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 80, 60, 60 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.25
+                            0.800000012
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 80, 60, 60 }
+                            { 80, 60, 60 }
+                            { 80, 60, 60 }
+                            { 8, 60, 60 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.400000006
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 1, 1 }
+                            { 1, 1, 1 }
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/Ahri_Skin01_GlowTrail_qmisahritest.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.400000006
+                }
+                particleLinger: option[f32] = {
+                    0.200000003
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Flash"
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -80, 0 }
+                }
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.274509817, 0.721568644, 1, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 10
+                meshRenderFlags: u8 = 0
+                depthBiasFactors: vec2 = { -1, -70 }
+                particleIsLocalOrientation: flag = true
+                isUniformScale: flag = true
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 250, 250, 250 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 1, 1 }
+                            { 0.699999988, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/common_OrbGlow_qmisahritest.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 6
+                }
+                lifetime: option[f32] = {
+                    3
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "GroundLight"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -150, -100 }
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.409994662, 0.680003047, 1, 0.839993894 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                        }
+                    }
+                }
+                pass: i16 = -9999
+                alphaRef: u8 = 0
+                miscRenderFlags: u8 = 1
+                particleIsLocalOrientation: flag = true
+                isGroundLayer: flag = true
+                useNavmeshMask: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 0, 90 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 400, 170, 200 }
+                }
+                texture: string = "ASSETS/vfxhub/Ahri_Skin01_Emote_distort_qmisahritest.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 100
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.800000012
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[f32] = {
+                            0.560000002
+                            0.800000012
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    4
+                }
+                emitterName: string = "Trail"
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 100, 200, 0 }
+                }
+                worldAcceleration: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, 300, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 300, 0 }
+                        }
+                    }
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -30, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveCameraTrail {
+                    mTrail: embed = VfxTrailDefinitionData {
+                        mMode: u8 = 1
+                        mBirthTilingSize: embed = ValueVector3 {
+                            constantValue: vec3 = { 900, 0, 0 }
+                        }
+                        mSmoothingMode: u8 = 2
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.500007629 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.699999988
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 0.500007629 }
+                            { 1, 1, 1, 0.500007629 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.200000003
+                            0.280000001
+                            0.379999995
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.309803993, 0.909803987, 1, 0 }
+                            { 0.130006865, 0.889997721, 1, 0.0699931309 }
+                            { 0.396078438, 0.870588243, 1, 1 }
+                            { 0.560006082, 0.850003839, 1, 0.62999922 }
+                            { 0.059998475, 0.310002297, 1, 0.349996179 }
+                            { 0, 0.215686277, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 10
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.349999994
+                    erosionFeatherOut: f32 = 0.349999994
+                    erosionSliceWidth: f32 = 1.39999998
+                    erosionMapName: string = "ASSETS/vfxhub/Dissolve_Cloudy_02_qmisahritest.tex"
+                    erosionMapAddressMode: u8 = 0
+                }
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 100, 60, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                            { 100, 60, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { -20, 0, 0 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.349999994
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.150000006, 0, 0 }
+                            { 1.5, 0, 0 }
+                            { 4, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/Ahri_Skin01_R_Trail_01_qmisahritest.tex"
+                emitterUvScrollRate: vec2 = { 0.5, 0 }
+            }
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.100000001
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 6
+                }
+                lifetime: option[f32] = {
+                    3
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "OverlayGlow"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -100, 0 }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.0509803928, 0.156862751, 0.509803951, 0.521568656 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.200000003
+                            0.75
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 0.749996185 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 50
+                alphaRef: u8 = 0
+                miscRenderFlags: u8 = 1
+                particleIsLocalOrientation: flag = true
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                useNavmeshMask: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 0, 90 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 200, 200, 200 }
+                }
+                texture: string = "ASSETS/vfxhub/Ahri_Skin01_Emote_distort_qmisahritest.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 2
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.699999988
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            2
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    0.200000003
+                }
+                lifetime: option[f32] = {
+                    2
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Inner_Light"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -100, 0 }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.62999922 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.0117647061, 0.109803922, 0.301960796, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.0117647061, 0.109803922, 0.301960796, 1 }
+                            { 0.0117647061, 0.109803922, 0.301960796, 1 }
+                            { 0.0117647061, 0.109803922, 0.301960796, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -150
+                alphaRef: u8 = 0
+                depthBiasFactors: vec2 = { -1, -100 }
+                isUniformScale: flag = true
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 150, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.5, 1.29999995, 1.29999995 }
+                }
+                texture: string = "ASSETS/vfxhub/Ahri_Skin01_Emote_distort_qmisahritest.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 6
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Inner_Light1"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -100, 0 }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.330006868 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.274509817, 0.745098054, 1, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.0500000007
+                            0.75
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.274509817, 0.745098054, 1, 1 }
+                            { 0.274509817, 0.745098054, 1, 1 }
+                            { 0.274509817, 0.745098054, 1, 1 }
+                            { 0.274509817, 0.745098054, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 10
+                alphaRef: u8 = 0
+                isUniformScale: flag = true
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 150, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1.29999995, 1.29999995 }
+                }
+                texture: string = "ASSETS/vfxhub/Ahri_Skin01_Emote_distort_qmisahritest.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 200
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.800000012
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[f32] = {
+                            0.560000002
+                            0.800000012
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    4
+                }
+                emitterName: string = "Trail1"
+                worldAcceleration: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, 300, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 300, 0 }
+                        }
+                    }
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -30, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveCameraTrail {
+                    mTrail: embed = VfxTrailDefinitionData {
+                        mMode: u8 = 1
+                        mBirthTilingSize: embed = ValueVector3 {
+                            constantValue: vec3 = { 900, 0, 0 }
+                        }
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.500007629 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 0.500007629 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.200000003
+                            0.280000001
+                            0.379999995
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.309803993, 0.909803987, 1, 0 }
+                            { 0.130006865, 0.889997721, 1, 0.0699931309 }
+                            { 0.396078438, 0.870588243, 1, 1 }
+                            { 0.560006082, 0.850003839, 1, 0.62999922 }
+                            { 0.059998475, 0.310002297, 1, 0.349996179 }
+                            { 0, 0.215686277, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 10
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.349999994
+                    erosionFeatherOut: f32 = 0.349999994
+                    erosionSliceWidth: f32 = 1.39999998
+                    erosionMapName: string = "ASSETS/vfxhub/Dissolve_Cloudy_02_qmisahritest.tex"
+                    erosionMapAddressMode: u8 = 0
+                }
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 100, 60, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                            { 100, 60, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 40, 0, 0 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.300000012
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.400000006, 0, 0 }
+                            { 2, 0, 0 }
+                            { 4, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/Ahri_Skin01_Q_Trail_02_qmisahritest.tex"
+                birthUvScrollRate: embed = ValueVector2 {
+                    constantValue: vec2 = { -0.25, 0 }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 100
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.800000012
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[f32] = {
+                            0.560000002
+                            0.800000012
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    4
+                }
+                emitterName: string = "Trail2"
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { -200, -200, 0 }
+                }
+                worldAcceleration: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, 300, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 300, 0 }
+                        }
+                    }
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -30, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveCameraTrail {
+                    mTrail: embed = VfxTrailDefinitionData {
+                        mMode: u8 = 1
+                        mBirthTilingSize: embed = ValueVector3 {
+                            constantValue: vec3 = { 800, 0, 0 }
+                        }
+                        mSmoothingMode: u8 = 2
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.500007629 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.699999988
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 0.500007629 }
+                            { 1, 1, 1, 0.500007629 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.200000003
+                            0.280000001
+                            0.379999995
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.309803993, 0.909803987, 1, 0 }
+                            { 0.130006865, 0.889997721, 1, 0.0699931309 }
+                            { 0.396078438, 0.870588243, 1, 1 }
+                            { 0.560006082, 0.850003839, 1, 0.62999922 }
+                            { 0.059998475, 0.310002297, 1, 0.349996179 }
+                            { 0, 0.215686277, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 10
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.349999994
+                    erosionFeatherOut: f32 = 0.349999994
+                    erosionSliceWidth: f32 = 1.39999998
+                    erosionMapName: string = "ASSETS/vfxhub/Dissolve_Cloudy_02_qmisahritest.tex"
+                    erosionMapAddressMode: u8 = 0
+                }
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 100, 60, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                            { 100, 60, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 30, 0, 0 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.400000006
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.349999994, 0, 0 }
+                            { 2, 0, 0 }
+                            { 4, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/Ahri_Skin01_R_Trail_01_qmisahritest.tex"
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { 0.25, 0 }
+                }
+                emitterUvScrollRate: vec2 = { 0.5, 0 }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 100
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.800000012
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    4
+                }
+                emitterName: string = "Trail3"
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 500, 0 }
+                }
+                worldAcceleration: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, 300, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 300, 0 }
+                        }
+                    }
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -30, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveArbitraryTrail {
+                    mTrail: embed = VfxTrailDefinitionData {
+                        mMode: u8 = 1
+                        mBirthTilingSize: embed = ValueVector3 {
+                            constantValue: vec3 = { 800, 0, 0 }
+                        }
+                        mSmoothingMode: u8 = 2
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.400000006 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 0.400000006 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.200000003
+                            0.280000001
+                            0.379999995
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.309803993, 0.909803987, 1, 0 }
+                            { 0.130006865, 0.889997721, 1, 0.0699931309 }
+                            { 0.396078438, 0.870588243, 1, 1 }
+                            { 0.560006082, 0.850003839, 1, 0.62999922 }
+                            { 0.059998475, 0.310002297, 1, 0.349996179 }
+                            { 0, 0.215686277, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 1
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.349999994
+                    erosionFeatherOut: f32 = 0.349999994
+                    erosionSliceWidth: f32 = 1.39999998
+                    erosionMapName: string = "ASSETS/vfxhub/Dissolve_Cloudy_02_qmisahritest.tex"
+                    erosionMapAddressMode: u8 = 0
+                }
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    constantValue: vec3 = { 180, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 45, 0, 0 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.400000006
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.5, 0, 0 }
+                            { 1.5, 0, 0 }
+                            { 3, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/TFT_Ahri_Skin01_Q_Trail_01_qmisahritest.tex"
+                birthUvScrollRate: embed = ValueVector2 {
+                    constantValue: vec2 = { -0.25, 0 }
+                }
+                emitterUvScrollRate: vec2 = { 0.5, 0 }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/vfxhub/TFT_Ahri_Skin01_Q_Trail_01_qmisahritest.tex"
+                    birthUvScrollRateMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0.150000006, 0 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 100
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.800000012
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    4
+                }
+                emitterName: string = "Trail4"
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 500, 0 }
+                }
+                worldAcceleration: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, 300, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 300, 0 }
+                        }
+                    }
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -30, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveArbitraryTrail {
+                    mTrail: embed = VfxTrailDefinitionData {
+                        mMode: u8 = 1
+                        mBirthTilingSize: embed = ValueVector3 {
+                            constantValue: vec3 = { 600, 0, 0 }
+                        }
+                        mSmoothingMode: u8 = 2
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.400000006 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 0.400000006 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.200000003
+                            0.280000001
+                            0.379999995
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.309803993, 0.909803987, 1, 0 }
+                            { 0.130006865, 0.889997721, 1, 0.0699931309 }
+                            { 0.396078438, 0.870588243, 1, 1 }
+                            { 0.560006082, 0.850003839, 1, 0.62999922 }
+                            { 0.059998475, 0.310002297, 1, 0.349996179 }
+                            { 0, 0.215686277, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 1
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.349999994
+                    erosionFeatherOut: f32 = 0.349999994
+                    erosionSliceWidth: f32 = 1.39999998
+                    erosionMapName: string = "ASSETS/vfxhub/Dissolve_Cloudy_02_qmisahritest.tex"
+                    erosionMapAddressMode: u8 = 0
+                }
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    constantValue: vec3 = { -180, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { -25, 0, 0 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.349999994
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.300000012, 0, 0 }
+                            { 1.5, 0, 0 }
+                            { 3, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/TFT_Ahri_Skin01_Q_Trail_01_qmisahritest.tex"
+                birthUvScrollRate: embed = ValueVector2 {
+                    constantValue: vec2 = { -0.25, 0 }
+                }
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { 0.150000006, 0 }
+                }
+                emitterUvScrollRate: vec2 = { 0.75, 0 }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/vfxhub/TFT_Ahri_Skin01_Q_Trail_01_qmisahritest.tex"
+                    birthUvScrollRateMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 1.29999995, 0 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 75
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.5
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.25
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            0.5
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    0.5
+                }
+                lifetime: option[f32] = {
+                    5
+                }
+                emitterName: string = "sparkles_mis"
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 200, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 200, 0 }
+                        }
+                    }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 4, 0 }
+                }
+                SpawnShape: pointer = VfxShapeCylinder {
+                    flags: u8 = 1
+                    radius: f32 = 100
+                    height: f32 = 50
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -50, 0 }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.60999465, 1, 0.970000744, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.100000001
+                                    0.600000024
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.800000012
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.800000012
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec4] = {
+                            { 0.60999465, 1, 0.970000744, 1 }
+                        }
+                    }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.150000006
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                isUniformScale: flag = true
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 20, 10, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 20, 10, 0 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.200000003
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 3, 0, 0 }
+                            { 1, 0, 0 }
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/Ahri_Skin01_W_Mote_01_qmisahritest.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 4
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Indicator"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -50, -100 }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/vfxhub/Ahri_Skin01_Q_Indicator_02_qmisahritest.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.620004594, 0.930006862, 1, 0.450003803 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.25
+                            0.699999988
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.200000003
+                    erosionMapName: string = "ASSETS/vfxhub/Ahri_Skin01_Q_Smoke_Erode_qmisahritest.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 1, 1, 0 }
+                    }
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                particleIsLocalOrientation: flag = true
+                isGroundLayer: flag = true
+                useNavmeshMask: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 90, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 5, 5, 5 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.200000003
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.899999976, 0.5, 0.400000006 }
+                            { 1.04999995, 0.5, 0.649999976 }
+                            { 0.899999976, 0, 0.899999976 }
+                            { 1, 3, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/Ahri_Skin01_Q_Indicator_01_qmisahritest.tex"
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { -0.100000001, 0 }
+                }
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { -4.5, 0 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.699999988
+                        }
+                        values: list[vec2] = {
+                            { -0.900000036, 0 }
+                            { -4.5, 0 }
+                        }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.800000012
+                }
+                particleLinger: option[f32] = {
+                    11
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Temp_Mesh"
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 80, 0 }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/vfxhub/Ahri_Skin01_Q_Swirls_01_qmisahritest.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.145098045, 0.929411769, 1, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.25
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.235294119, 0.643137276, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 0.160784319, 1, 0.819607854, 0 }
+                        }
+                    }
+                }
+                alphaRef: u8 = 0
+                depthBiasFactors: vec2 = { -1, -150 }
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                uvScrollClamp: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 180, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.25, 2, 1.25 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 1, 1 }
+                            { 1, 3, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/Ahri_Skin01_BlastRing_2_qmisahritest.tex"
+                birthUvScrollRate: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, 1 }
+                }
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, -0.25 }
+                }
+                texAddressModeBase: u8 = 2
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 1, 2 }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 75
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.29999995
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.25
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            1.29999995
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    0.649999976
+                }
+                lifetime: option[f32] = {
+                    2.5
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "sparkles_burst"
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 200, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 200, 0 }
+                        }
+                    }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 4, 0 }
+                }
+                SpawnShape: pointer = VfxShapeLegacy {
+                    emitOffset: embed = ValueVector3 {
+                        constantValue: vec3 = { 100, 0, 0 }
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                }
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {}
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 100, 50, 0 }
+                            }
+                        }
+                    }
+                    emitRotationAngles: list[embed] = {
+                        ValueFloat {
+                            constantValue: f32 = 1
+                            dynamics: pointer = VfxAnimatedFloatVariableData {
+                                probabilityTables: list[pointer] = {
+                                    VfxProbabilityTableData {
+                                        keyTimes: list[f32] = {
+
+
 
 
 
@@ -8569,6 +10442,7 @@ entries: map[hash,embed] = {
             "broicanttest" = "broicanttest"
             "broimtesting111" = "broimtesting111"
             "testassetpath" = "testassetpath"
+            "qmisahritest" = "qmisahritest"
         }
      }
 } 
