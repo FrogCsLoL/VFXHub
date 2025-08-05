@@ -20,6 +20,22 @@
       ],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-08-05"
+    },
+    "blablabla": {
+      "name": "blablabla",
+      "description": "blablabla",
+      "emitters": 4,
+      "category": "explosions",
+      "file": "explosionvfxs.py",
+      "assets": [
+        "collection/assets/vfxhub/aurora_base_r_08.aurora_blablabla.tex",
+        "collection/assets/vfxhub/aurora_base_particles_1_1245.aurora_blablabla.tex",
+        "collection/assets/vfxhub/aurora_base_r_01.aurora_blablabla.scb",
+        "collection/assets/vfxhub/aurora_base_particles_1_1242.aurora_blablabla.scb",
+        "collection/assets/vfxhub/aurora_base_particles_1_1248.aurora_blablabla.tex"
+      ],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2025-08-05"
     }
   }
 }
