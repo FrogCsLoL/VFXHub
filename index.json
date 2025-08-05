@@ -95,6 +95,16 @@
       "assets": [],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-08-05"
+    },
+    "testvfx333": {
+      "name": "testvfx333",
+      "description": "testvfx333",
+      "emitters": 4,
+      "category": "explosions",
+      "file": "explosionvfxs.py",
+      "assets": [],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2025-08-05"
     }
   }
 }
