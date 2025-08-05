@@ -15056,6 +15056,7 @@ entries: map[hash,embed] = {
         particleName: string = "kingsetttest2"
         particlePath: string = "kingsetttest2"
     }
+ 
 
 # VFX_HUB_NAME: kingsetttest22
 # VFX_HUB_DESCRIPTION: kingsetttest22
