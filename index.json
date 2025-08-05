@@ -99,7 +99,7 @@
     "testvfx333": {
       "name": "testvfx333",
       "description": "testvfx333",
-      "emitters": 11,
+      "emitters": 4,
       "category": "explosions",
       "file": "explosionvfxs.py",
       "assets": [],
