@@ -1,5 +1,446 @@
 entries: map[hash,embed] = {
 
+# VFX_HUB_NAME: testsett
+# VFX_HUB_DESCRIPTION: testsett
+# VFX_HUB_CATEGORY: explosions
+# VFX_HUB_EMITTERS: 5
+"testsett" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.0500000007
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.224999994
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Avatar"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = VfxShapeLegacy {
+                    emitOffset: embed = ValueVector3 {
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {}
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 0, 0, 0 }
+                            }
+                        }
+                    }
+                    emitRotationAngles: list[embed] = {
+                        ValueFloat {}
+                        ValueFloat {}
+                    }
+                    emitRotationAxes: list[vec3] = {
+                        { 0, 0, 0 }
+                        { 0, 0, 0 }
+                    }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveAttachedMesh {}
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.498039216, 1, 0.974901974, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.200000003
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 0, 1, 0.949999988, 1 }
+                            { 0, 1, 0.949999988, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 50
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                isUniformScale: flag = true
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.00999999, 1, 1 }
+                }
+                texture: string = "ASSETS/vfxhub/Pantheon_Skin06_Fire_Erode_testsett.tex"
+                birthUvScrollRate: embed = ValueVector2 {
+                    constantValue: vec2 = { 3, 0 }
+                }
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { -4, 0 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec2] = {
+                            { -4, 0 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 5, 5 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/vfxhub/Sett_Base_BA_Glow_Arm_L_testsett.tex"
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 10
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.180000007
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Temp_Mesh13"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 25, 0, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/vfxhub/Sett_Base_BA_Swipe_02_testsett.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.203921571, 1, 0.960196078, 1 }
+                }
+                pass: i16 = 10
+                colorRenderFlags: u8 = 1
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                texture: string = "ASSETS/vfxhub/Sett_Base_Energy_Trail_testsett.tex"
+                birthUvScrollRate: embed = ValueVector2 {
+                    constantValue: vec2 = { -1, 0 }
+                }
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, -1 }
+                }
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec2] = {
+                            { 0, 0 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 0.5, 1 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/vfxhub/Color_Pantheon_Skin06_spark_Color_testsett.tex"
+                    texAddressModeMult: u8 = 2
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
+                        constantValue: vec2 = { 9, 0 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec2] = {
+                                { 9, 0 }
+                            }
+                        }
+                    }
+                    birthUVOffsetMult: embed = ValueVector2 {
+                        constantValue: vec2 = { -0.5, 0 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 3
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.200000003
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Temp_Mesh15"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 20, 0, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/vfxhub/Sett_Base_BA_Swipe_02_testsett.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.180392161, 1, 0.959019601, 1 }
+                }
+                colorRenderFlags: u8 = 1
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                texture: string = "ASSETS/vfxhub/Sett_Base_Center_Mask_A_testsett.tex"
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 2, 1 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/vfxhub/Color_Pantheon_Skin06_spark_Color_testsett.tex"
+                    texAddressModeMult: u8 = 2
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
+                        constantValue: vec2 = { 9, 0 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec2] = {
+                                { 9, 0 }
+                            }
+                        }
+                    }
+                    birthUVOffsetMult: embed = ValueVector2 {
+                        constantValue: vec2 = { -0.5, 0 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 5
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.180000007
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Temp_Mesh16"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 25, 0, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/vfxhub/Sett_Base_BA_Swipe_02_testsett.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.105882354, 1, 0.955294132, 1 }
+                }
+                pass: i16 = 1
+                colorRenderFlags: u8 = 1
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                texture: string = "ASSETS/vfxhub/Pantheon_Skin06_Nebula_Streak_Mult_testsett.tex"
+                birthUvScrollRate: embed = ValueVector2 {
+                    constantValue: vec2 = { -1, 0 }
+                }
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, 1 }
+                }
+                texAddressModeBase: u8 = 2
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec2] = {
+                            { 0, 0 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 0.5, 2 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/vfxhub/Color_Pantheon_Skin06_spark_Color_testsett.tex"
+                    texAddressModeMult: u8 = 2
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
+                        constantValue: vec2 = { 9, 0 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec2] = {
+                                { 9, 0 }
+                            }
+                        }
+                    }
+                    birthUVOffsetMult: embed = ValueVector2 {
+                        constantValue: vec2 = { -0.5, 0 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.200000003
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Temp_Mesh17"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 20, 0, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/vfxhub/Sett_Base_BA_Swipe_02_testsett.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.290196091, 1, 0.964509785, 1 }
+                }
+                pass: i16 = 2
+                colorRenderFlags: u8 = 1
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                texture: string = "ASSETS/vfxhub/Sett_Base_Center_Mask_A_testsett.tex"
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 2, 1 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/vfxhub/Color_Pantheon_Skin06_spark_Color_testsett.tex"
+                    texAddressModeMult: u8 = 2
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
+                        constantValue: vec2 = { 9, 0 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec2] = {
+                                { 9, 0 }
+                            }
+                        }
+                    }
+                    birthUVOffsetMult: embed = ValueVector2 {
+                        constantValue: vec2 = { -0.5, 0 }
+                    }
+                }
+            }
+        }
+        particleName: string = "testsett"
+        particlePath: string = "testsett"
+    }
+
+
 # VFX_HUB_NAME: testvfx222
 # VFX_HUB_DESCRIPTION: testvfx222
 # VFX_HUB_CATEGORY: explosions
@@ -10443,6 +10884,7 @@ entries: map[hash,embed] = {
             "broimtesting111" = "broimtesting111"
             "testassetpath" = "testassetpath"
             "qmisahritest" = "qmisahritest"
+            "testsett" = "testsett"
         }
      }
 } 
