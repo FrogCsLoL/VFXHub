@@ -1,0 +1,25 @@
+{
+  "effects": {
+    "test3": {
+      "name": "test3",
+      "description": "test3",
+      "emitters": 8,
+      "category": "explosions",
+      "file": "explosionvfxs.py",
+      "assets": [
+        "collection/assets/vfxhub/aurora_base_glow_bright.aurora_test3.tex",
+        "collection/assets/vfxhub/aurora_base_q_glowspecks.aurora_test3.tex",
+        "collection/assets/vfxhub/generic_2x2_cloudpuff.aurora_test3.tex",
+        "collection/assets/vfxhub/aurora_distort.aurora_test3.tex",
+        "collection/assets/vfxhub/bunnymage_darkdust.aurora_test3.tex",
+        "collection/assets/vfxhub/aurora_gradient3.aurora_test3.tex",
+        "collection/assets/vfxhub/aurora_base_p_dust.aurora_test3.tex",
+        "collection/assets/vfxhub/generic_erosion04.aurora_test3.tex",
+        "collection/assets/vfxhub/generic_mask04.aurora_test3.tex",
+        "collection/assets/vfxhub/generic_holystrings_support.aurora_test3.tex"
+      ],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2025-08-05"
+    }
+  }
+}
