@@ -106,10 +106,10 @@
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-08-05"
     },
-    "testvfx666": {
-      "name": "testvfx666",
-      "description": "testvfx666",
-      "emitters": 4,
+    "testvfx777": {
+      "name": "testvfx777",
+      "description": "testvfx777",
+      "emitters": 6,
       "category": "explosions",
       "file": "explosionvfxs.py",
       "assets": [],
