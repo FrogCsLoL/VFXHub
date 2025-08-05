@@ -1,5 +1,17 @@
 
 entries: map[hash,embed] = {
+
+# VFX_HUB_NAME: test2
+# VFX_HUB_DESCRIPTION: test2
+# VFX_HUB_CATEGORY: explosions
+# VFX_HUB_EMITTERS: 6
+    "Aurora_Base_Emote_Dance" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+
     # VFX_HUB_NAME: ebay
     # VFX_HUB_DESCRIPTION: ebayname
     # VFX_HUB_CATEGORY: explosions
@@ -1647,6 +1659,7 @@ entries: map[hash,embed] = {
         resourceMap: map[hash,link] = {
             "ebay" = "ebay"
             "test" = "test"
+            "Aurora_Base_Emote_Dance" = "Aurora_Base_Emote_Dance"
         }
     }
 }
