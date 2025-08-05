@@ -265,6 +265,16 @@
       "assets": [],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-08-05"
+    },
+    "testassetpath2": {
+      "name": "testassetpath2",
+      "description": "testassetpath2",
+      "emitters": 3,
+      "category": "explosions",
+      "file": "explosionvfxs.py",
+      "assets": [],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2025-08-05"
     }
   }
 }
