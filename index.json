@@ -308,6 +308,22 @@
       "assets": [],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-08-08"
+    },
+    "targettest": {
+      "name": "targettest",
+      "description": "targettest",
+      "emitters": 10,
+      "category": "target",
+      "file": "targetvfx.py",
+      "assets": [
+        "collection/assets/vfxhub/akali_base_z_flare_yellow_targettest.dds",
+        "collection/assets/vfxhub/flare-omnimax_targettest.dds",
+        "collection/assets/vfxhub/akali_base_aa_glow_test_targettest.dds",
+        "collection/assets/vfxhub/warwick_base_aa_yasuo_skin01_aa_sword_targettest.dds",
+        "collection/assets/vfxhub/akali_base_aa_hit_flash_spikes_yellow_targettest.dds"
+      ],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2025-08-08"
     }
   }
 }
