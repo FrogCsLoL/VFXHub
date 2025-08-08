@@ -4,7 +4,7 @@ entries: map[hash,embed] = {
 # VFX_HUB_DESCRIPTION: testassetpath3
 # VFX_HUB_CATEGORY: explosions
 # VFX_HUB_EMITTERS: 3
-    "testassetpath3" = VfxSystemDefinitionData {
+    "testmissilevfx" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -231,8 +231,8 @@ entries: map[hash,embed] = {
                 }
             }
         }
-        particleName: string = "testassetpath3"
-        particlePath: string = "testassetpath3"
+        particleName: string = "testmissilevfx"
+        particlePath: string = "testmissilevfx"
     }
 
 
@@ -240,7 +240,7 @@ entries: map[hash,embed] = {
 
      "Characters/Aurora/Skins/Skin0/Resources" = ResourceResolver {
         resourceMap: map[hash,link] = {
-            "testassetpath3" = "testassetpath3"
+            "testmissilevfx" = "testmissilevfx"
             
         }
      }
