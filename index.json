@@ -298,6 +298,16 @@
       "assets": [],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-08-05"
+    },
+    "sa": {
+      "name": "sa",
+      "description": "",
+      "emitters": 0,
+      "category": "target",
+      "file": "targetvfx.py",
+      "assets": [],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2025-08-08"
     }
   }
 }
