@@ -474,7 +474,6 @@ entries: map[hash,embed] = {
         resourceMap: map[hash,link] = {
             "testauravfx" = "testauravfx"
             "cherryblossomauravfx" = "cherryblossomauravfx"
-            "auravfxx" = "auravfxx"
         }
      }
 } 
