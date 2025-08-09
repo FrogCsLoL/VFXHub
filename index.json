@@ -346,6 +346,48 @@
       ],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-08-09"
+    },
+    "rtar": {
+      "name": "rtar",
+      "description": "rtar",
+      "emitters": 24,
+      "category": "explosions",
+      "file": "explosionvfxs.py",
+      "assets": [
+        "collection/assets/vfxhub/Jinx_Skin60_LighRay.SKINS_Jinx_Skin60_rtar.dds",
+        "collection/assets/vfxhub/Jinx_Skin60_Q_Trail_Smoke.SKINS_Jinx_Skin60_rtar.dds",
+        "collection/assets/vfxhub/Jinx_Skin60_R_Rocks_2x2.SKINS_Jinx_Skin60_rtar.dds",
+        "collection/assets/vfxhub/Jinx_Skin60_W_Border_lines.SKINS_Jinx_Skin60_rtar.dds",
+        "collection/assets/vfxhub/Jinx_Skin60_AnimeShapes02.SKINS_Jinx_Skin60_rtar.dds",
+        "collection/assets/vfxhub/Jinx_Skin60_Shockwave.SKINS_Jinx_Skin60_rtar.dds",
+        "collection/assets/vfxhub/Jinx_Skin60_Particles_1_291.SKINS_Jinx_Skin60_rtar.dds",
+        "collection/assets/vfxhub/Jinx_Skin60_Impact_dot.SKINS_Jinx_Skin60_rtar.dds",
+        "collection/assets/vfxhub/Jinx_Skin60_BA_Hit_Impact.SKINS_Jinx_Skin60_rtar.dds",
+        "collection/assets/vfxhub/Aatrox_Skin33_Q_White.SKINS_Jinx_Skin60_rtar.dds",
+        "collection/assets/vfxhub/Jinx_Skin60_Q_15.SKINS_Jinx_Skin60_rtar.dds",
+        "collection/assets/vfxhub/Jinx_Skin60_UX_Psychosis_Lines_1.SKINS_Jinx_Skin60_rtar.dds",
+        "collection/assets/vfxhub/Jinx_Skin60_Particles_1_1533.SKINS_Jinx_Skin60_rtar.dds",
+        "collection/assets/vfxhub/Aura_Self.SKINS_Jinx_Skin60_rtar.DDS",
+        "collection/assets/vfxhub/Shockwave.SKINS_Jinx_Skin60_rtar.scb",
+        "collection/assets/vfxhub/Jinx_Skin60_R_Border_ring.SKINS_Jinx_Skin60_rtar.scb",
+        "collection/assets/vfxhub/Jinx_Skin60_FlatDisc.SKINS_Jinx_Skin60_rtar.scb",
+        "collection/assets/vfxhub/Jinx_Skin60_Particles_1_1581.SKINS_Jinx_Skin60_rtar.scb",
+        "collection/assets/vfxhub/Jinx_Skin60_Finisher_shot02_003.SKINS_Jinx_Skin60_rtar.scb",
+        "collection/assets/vfxhub/Jinx_Skin60_Q_01.SKINS_Jinx_Skin60_rtar.scb",
+        "collection/assets/vfxhub/Jinx_Skin60_R_Dome.SKINS_Jinx_Skin60_rtar.scb",
+        "collection/assets/vfxhub/Jinx_Skin60_Q_Erode.SKINS_Jinx_Skin60_rtar.dds",
+        "collection/assets/vfxhub/Jinx_Rework_Generic_NoiseMulti01.SKINS_Jinx_Skin60_rtar.dds",
+        "collection/assets/vfxhub/Jinx_Skin60_E_ErosionShapes01.SKINS_Jinx_Skin60_rtar.dds",
+        "collection/assets/vfxhub/Jinx_Skin60_PlasmaNoise.SKINS_Jinx_Skin60_rtar.dds",
+        "collection/assets/vfxhub/Jinx_Skin60_Finisher_Outro_ScreenLight01.SKINS_Jinx_Skin60_rtar.tex",
+        "collection/assets/vfxhub/Jinx_Skin60_Q_Trail_Mult.SKINS_Jinx_Skin60_rtar.dds",
+        "collection/assets/vfxhub/Jinx_Skin60_LightningFlash_Mult.SKINS_Jinx_Skin60_rtar.dds",
+        "collection/assets/vfxhub/Jinx_Skin60_Finisher_shot02_002.SKINS_Jinx_Skin60_rtar.dds",
+        "collection/assets/vfxhub/Jinx_Skin60_W_BorderTop_mask.SKINS_Jinx_Skin60_rtar.dds",
+        "collection/assets/vfxhub/Jinx_Skin60_UX_Psychosis_Lines_3.SKINS_Jinx_Skin60_rtar.dds"
+      ],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2025-08-09"
     }
   }
 }
