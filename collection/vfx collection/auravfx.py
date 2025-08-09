@@ -470,11 +470,11 @@ entries: map[hash,embed] = {
         particlePath: string = "cherryblossomauravfx"
     }
 
-# VFX_HUB_NAME: cherrytest
-# VFX_HUB_DESCRIPTION: cherrytest
+# VFX_HUB_NAME: auravfxx
+# VFX_HUB_DESCRIPTION: auravfxx
 # VFX_HUB_CATEGORY: auras
 # VFX_HUB_EMITTERS: 1
-    "cherrytest" = VfxSystemDefinitionData {
+    "auravfxx" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -696,13 +696,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/vfxhub/Jhin_base_Rose_petals_cherrytest.dds"
+                texture: string = "ASSETS/vfxhub/Jhin_base_Rose_petals_auravfxx.dds"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
         }
-        particleName: string = "cherrytest"
-        particlePath: string = "cherrytest"
+        particleName: string = "auravfxx"
+        particlePath: string = "auravfxx"
     }
 
 
@@ -714,7 +714,7 @@ entries: map[hash,embed] = {
             
             "cherryblossomauravfx" = "cherryblossomauravfx"
             "cherryblossomauravfx" = "cherryblossomauravfx"
-            "cherrytest" = "cherrytest"
+            "auravfxx" = "auravfxx"
         }
      }
 } 
