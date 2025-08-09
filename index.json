@@ -324,6 +324,16 @@
       ],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-08-08"
+    },
+    "cherryblossomaura": {
+      "name": "cherryblossomaura",
+      "description": "cherryblossomaura",
+      "emitters": 1,
+      "category": "auras",
+      "file": "auravfx.py",
+      "assets": [],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2025-08-09"
     }
   }
 }
