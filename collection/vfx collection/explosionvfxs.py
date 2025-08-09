@@ -1,7 +1,7 @@
 entries: map[hash,embed] = {
 
-# VFX_HUB_NAME: testassetpath3
-# VFX_HUB_DESCRIPTION: testassetpath3
+# VFX_HUB_NAME: testexplosionvfx
+# VFX_HUB_DESCRIPTION: testexplosionvfx
 # VFX_HUB_CATEGORY: explosions
 # VFX_HUB_EMITTERS: 3
     "testexplosionvfx" = VfxSystemDefinitionData {
