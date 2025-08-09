@@ -388,6 +388,44 @@
       ],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-08-09"
+    },
+    "explosiontest2": {
+      "name": "explosiontest2",
+      "description": "explosiontest2",
+      "emitters": 18,
+      "category": "explosions",
+      "file": "explosionvfxs.py",
+      "assets": [
+        "collection/assets/vfxhub/common_color-bellcurve_explosiontest2.dds",
+        "collection/assets/vfxhub/color-hold_explosiontest2.DDS",
+        "collection/assets/vfxhub/Volibear_Base_colorGrad_explosiontest2.dds",
+        "collection/assets/vfxhub/Volibear_Base_Static_01_explosiontest2.dds",
+        "collection/assets/vfxhub/Volibear_Base_R_landingCrater_Add_explosiontest2.dds",
+        "collection/assets/vfxhub/Volibear_Base_R_landingCrater_Blend_01_explosiontest2.dds",
+        "collection/assets/vfxhub/common_alpha_20_explosiontest2.dds",
+        "collection/assets/vfxhub/common_distortion_soundwaves_01_explosiontest2.dds",
+        "collection/assets/vfxhub/common_Aura_Self_explosiontest2.dds",
+        "collection/assets/vfxhub/common_color-bellcurve32_explosiontest2.dds",
+        "collection/assets/vfxhub/common_distort-ripples_explosiontest2.dds",
+        "collection/assets/vfxhub/common_Aura_Self_02_explosiontest2.dds",
+        "collection/assets/vfxhub/Volibear_Base_Nova_explosiontest2.dds",
+        "collection/assets/vfxhub/Volibear_Base_W_Cas_Dust_01_explosiontest2.dds",
+        "collection/assets/vfxhub/DefaultColorOverlifetime_explosiontest2.dds",
+        "collection/assets/vfxhub/Volibear_Base_R_landingBolt_Vert_01_explosiontest2.scb",
+        "collection/assets/vfxhub/Volibear_Base_R_landingBlowback_01_explosiontest2.scb",
+        "collection/assets/vfxhub/Samira_Skin30_Z_PKCeleb_ArenaFire_explosiontest2.scb",
+        "collection/assets/vfxhub/Volibear_Base_Dissolve_Cloudy_01_explosiontest2.dds",
+        "collection/assets/vfxhub/Volibear_Base_impactErode_explosiontest2.dds",
+        "collection/assets/vfxhub/Volibear_Base_R_landingCrater_Add_Erode_explosiontest2.dds",
+        "collection/assets/vfxhub/Volibear_Base_R_landingCrater_Erode_01_explosiontest2.dds",
+        "collection/assets/vfxhub/Volibear_Base_Passive_SmokeErode_explosiontest2.dds",
+        "collection/assets/vfxhub/Base_mask_18l_explosiontest2.dds",
+        "collection/assets/vfxhub/Volibear_R_landing_blowBack_explosiontest2.dds",
+        "collection/assets/vfxhub/Volibear_Ashe_Base_ground_CrackNoise_mult_explosiontest2.dds",
+        "collection/assets/vfxhub/Samira_Skin30_Z_PK_Fire_explosiontest2.dds"
+      ],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2025-08-09"
     }
   }
 }
