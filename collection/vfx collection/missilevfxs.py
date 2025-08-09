@@ -1,8 +1,8 @@
 entries: map[hash,embed] = {
 
-# VFX_HUB_NAME: testassetpath3
-# VFX_HUB_DESCRIPTION: testassetpath3
-# VFX_HUB_CATEGORY: explosions
+# VFX_HUB_NAME: testmissilevfx
+# VFX_HUB_DESCRIPTION: testmissilevfx
+# VFX_HUB_CATEGORY: missiles
 # VFX_HUB_EMITTERS: 3
     "testmissilevfx" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
