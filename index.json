@@ -325,9 +325,9 @@
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-08-08"
     },
-    "cherryblossomaura": {
-      "name": "cherryblossomaura",
-      "description": "cherryblossomaura",
+    "cherryblossomauravfx": {
+      "name": "cherryblossomauravfx",
+      "description": "cherryblossomauravfx",
       "emitters": 1,
       "category": "auras",
       "file": "auravfx.py",
