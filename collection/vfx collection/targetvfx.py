@@ -235,14 +235,6 @@ entries: map[hash,embed] = {
         particlePath: string = "testassetpath3"
     }
 
-# VFX_HUB_NAME: sa
-# VFX_HUB_CATEGORY: target
-    "sa" = VfxSystemDefinitionData {
-        complexEmitterDefinitionData: list[pointer] = {}
-        particleName: string = "sa"
-        particlePath: string = "sa"
-        flags: u16 = 2244
-    }
 
 # VFX_HUB_NAME: targettest
 # VFX_HUB_DESCRIPTION: targettest
