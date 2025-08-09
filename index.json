@@ -335,13 +335,15 @@
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-08-09"
     },
-    "cherrytest": {
-      "name": "cherrytest",
-      "description": "cherrytest",
+    "auravfxx": {
+      "name": "auravfxx",
+      "description": "auravfxx",
       "emitters": 1,
       "category": "auras",
       "file": "auravfx.py",
-      "assets": [],
+      "assets": [
+        "collection/assets/vfxhub/Jhin_base_Rose_petals_auravfxx.dds"
+      ],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-08-09"
     }
