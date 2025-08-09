@@ -2,7 +2,7 @@ entries: map[hash,embed] = {
 
 # VFX_HUB_NAME: testauravfx
 # VFX_HUB_DESCRIPTION: testauravfx
-# VFX_HUB_CATEGORY: aura
+# VFX_HUB_CATEGORY: auras
 # VFX_HUB_EMITTERS: 3
     "testauravfx" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
