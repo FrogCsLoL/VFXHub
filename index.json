@@ -426,6 +426,23 @@
       ],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-08-09"
+    },
+    "caitlyncam": {
+      "name": "caitlyncam",
+      "description": "caitlyncam",
+      "emitters": 6,
+      "category": "buf",
+      "file": "bufvfx.py",
+      "assets": [
+        "collection/assets/vfxhub/Caitlyn_Skin22_OverlayBG_caitlyncam.dds",
+        "collection/assets/vfxhub/Caitlyn_Skin22_MotionLines_caitlyncam.dds",
+        "collection/assets/vfxhub/Caitlyn_Skin22_LongDot_caitlyncam.dds",
+        "collection/assets/vfxhub/Caitlyn_Skin22_MotionLines02_caitlyncam.dds",
+        "collection/assets/vfxhub/Caitlyn_Skin22_FaceOnly_caitlyncam.dds",
+        "collection/assets/vfxhub/OverlayGeo_caitlyncam.scb"
+      ],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2025-08-13"
     }
   }
 }
