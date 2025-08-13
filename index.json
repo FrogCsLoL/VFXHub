@@ -519,6 +519,21 @@
       ],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-08-13"
+    },
+    "fireidle": {
+      "name": "fireidle",
+      "description": "fireidle",
+      "emitters": 4,
+      "category": "auras",
+      "file": "auravfx.py",
+      "assets": [
+        "collection/assets/vfxhub/Veigar_Z_Frost_Smoke_Mult.SKINS_Veigar_Skin60_fireidle.tex",
+        "collection/assets/vfxhub/Veigar_Z_Buf_NoiseMap_1.SKINS_Veigar_Skin60_fireidle.tex",
+        "collection/assets/vfxhub/Veigar_Skin60_Z_Spectral_Mult.SKINS_Veigar_Skin60_fireidle.tex",
+        "collection/assets/vfxhub/light01.SKINS_Veigar_Skin60_fireidle.tex"
+      ],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2025-08-13"
     }
   }
 }
