@@ -534,6 +534,19 @@
       ],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-08-13"
+    },
+    "testebay": {
+      "name": "testebay",
+      "description": "testebay",
+      "emitters": 3,
+      "category": "buf",
+      "file": "bufvfx.py",
+      "assets": [
+        "collection/assets/vfxhub/sett_skin45_energy_trail_testassetpath3_testebay.tex",
+        "collection/assets/vfxhub/sett_skin45_fire_trail_graphic_testassetpath3_testebay.tex"
+      ],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2025-08-18"
     }
   }
 }
