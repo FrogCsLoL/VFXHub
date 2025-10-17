@@ -6231,6 +6231,1623 @@ entries: map[hash,embed] = {
         particlePath: string = "Udyr Aura"
     }
 
+# VFX_HUB_NAME: Spirit Blossom Aura
+# VFX_HUB_DESCRIPTION: Spirit Blossom Aura
+# VFX_HUB_CATEGORY: auras
+# VFX_HUB_EMITTERS: 12
+    "Spirit Blossom Aura" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                lifetime: option[f32] = {
+                    999999
+                }
+                emitterName: string = "Sword_Mid_GlowLargeAF"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                0x3bf0b4ed: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 0, -4 }
+                }
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -40, 5 }
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.650980413, 0.513725519, 0.960784316, 0.970000744 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 5
+                depthBiasFactors: vec2 = { -1, -2 }
+                miscRenderFlags: u8 = 1
+                particleIsLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 75, 130, 1 }
+                }
+                texture: string = "ASSETS/vfxhub/Riven_Skin20_R_Glow_Spirit_Blossom_Aura.dds"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                lifetime: option[f32] = {
+                    999999
+                }
+                emitterName: string = "Sword_Mid_GlowLargeAF1"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                0x3bf0b4ed: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 0, -4 }
+                }
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -40, 5 }
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.650980413, 0.513725519, 0.960784316, 0.889997721 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 12
+                depthBiasFactors: vec2 = { -1, -2 }
+                miscRenderFlags: u8 = 1
+                particleIsLocalOrientation: flag = false
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 90, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 75, 130, 1 }
+                }
+                texture: string = "ASSETS/vfxhub/Riven_Skin20_R_Glow_Spirit_Blossom_Aura.dds"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 3
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                lifetime: option[f32] = {
+                    999999
+                }
+                emitterName: string = "Sword_Mid_GlowLargeAF2"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                0x3bf0b4ed: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 0, -4 }
+                }
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -50, 10 }
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.188235298, 0.117647059, 1, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 12
+                depthBiasFactors: vec2 = { -1, -2 }
+                miscRenderFlags: u8 = 1
+                particleIsLocalOrientation: flag = false
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 90, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 75, 230, 1 }
+                }
+                texture: string = "ASSETS/vfxhub/Riven_Skin20_R_Glow_Spirit_Blossom_Aura.dds"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.400000006
+                }
+                lifetime: option[f32] = {
+                    999999
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "FWOOSH"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                0x3bf0b4ed: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -60, 2 }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/vfxhub/Riven_Skin23_R_Sword01_Spirit_Blossom_Aura.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0, 0, 0, 1 }
+                }
+                pass: i16 = 15
+                particleIsLocalOrientation: flag = false
+                doesCastShadow: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 90, -90, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 2.4000001, 2, 2.0999999 }
+                }
+                texture: string = "ASSETS/vfxhub/Riven_Skin23_Z_color-hold_Spirit_Blossom_Aura.dds"
+                textureMult: pointer = 0xb097c1bd {
+                    textureMult: string = "ASSETS/vfxhub/Riven_Skin23_Z_GradientMult_Spirit_Blossom_Aura.dds"
+                    texAddressModeMult: u8 = 2
+                    birthUvScrollRateMult: embed = ValueVector2 {
+                        constantValue: vec2 = { -4, 0 }
+                    }
+                    birthUVOffsetMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0.899999976, 0 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 10
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    0.850000024
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            1
+                        }
+                    }
+                }
+                lifetime: option[f32] = {
+                    999999
+                }
+                emitterName: string = "SmolFlames"
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -200, 0 }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                }
+                worldAcceleration: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, 50, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 50, 0 }
+                        }
+                    }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
+                    emitOffset: embed = ValueVector3 {
+                        constantValue: vec3 = { 0, -80, 2 }
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                }
+                                VfxProbabilityTableData {}
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 0, -80, 2 }
+                            }
+                        }
+                    }
+                    emitRotationAngles: list[embed] = {
+                        ValueFloat {}
+                    }
+                    emitRotationAxes: list[vec3] = {
+                        { 1.00000012, 0, 0 }
+                    }
+                }
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 0, 10 }
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0, 0, 0, 1 }
+                }
+                colorLookUpTypeY: u8 = 3
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionMapName: string = "ASSETS/vfxhub/Riven_Skin23_Z_FlameErosion_Spirit_Blossom_Aura.dds"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                particleIsLocalOrientation: flag = false
+                isUniformScale: flag = true
+                isRandomStartFrame: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 90, 1 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -360
+                                    360
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 90, 1 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 50, 80, 1 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.800000012
+                                    1.5
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 50, 80, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/Riven_Skin23_Z_FlameQuads_Spirit_Blossom_Aura.dds"
+                numFrames: u16 = 6
+                texDiv: vec2 = { 3, 2 }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 10
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    0.850000024
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            1
+                        }
+                    }
+                }
+                lifetime: option[f32] = {
+                    999999
+                }
+                emitterName: string = "HandlePlume"
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -100, 0 }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                }
+                worldAcceleration: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, 50, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 50, 0 }
+                        }
+                    }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
+                    emitOffset: embed = ValueVector3 {
+                        constantValue: vec3 = { 0, -30, 2 }
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                }
+                                VfxProbabilityTableData {}
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 0, -30, 2 }
+                            }
+                        }
+                    }
+                    emitRotationAngles: list[embed] = {
+                        ValueFloat {}
+                    }
+                    emitRotationAxes: list[vec3] = {
+                        { 1.00000012, 0, 0 }
+                    }
+                }
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 20, 10 }
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.0784313753, 0.0431372561, 0.352941185, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.600000024
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0, 0, 0, 0 }
+                            { 0, 0, 0, 1 }
+                            { 0, 0, 0, 1 }
+                            { 0.650980413, 0.513725519, 0.960784316, 0 }
+                        }
+                    }
+                }
+                colorLookUpTypeY: u8 = 3
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.100000001
+                                1
+                            }
+                            values: list[f32] = {
+                                0.400000006
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionMapName: string = "ASSETS/vfxhub/Riven_Skin23_Z_FlameErosion_Spirit_Blossom_Aura.dds"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                particleIsLocalOrientation: flag = false
+                isUniformScale: flag = true
+                isRandomStartFrame: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 90, 1 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -360
+                                    360
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 90, 1 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 60, 80, 1 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.800000012
+                                    1.5
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 60, 80, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/Riven_Skin23_Z_FlameQuads_Spirit_Blossom_Aura.dds"
+                numFrames: u16 = 6
+                texDiv: vec2 = { 3, 2 }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 5
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.899999976
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    0.850000024
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            0.899999976
+                        }
+                    }
+                }
+                lifetime: option[f32] = {
+                    999999
+                }
+                emitterName: string = "BackgroundFlames"
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -50, 0 }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
+                    emitOffset: embed = ValueVector3 {
+                        constantValue: vec3 = { 0, 20, 2 }
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                }
+                                VfxProbabilityTableData {}
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 0, 20, 2 }
+                            }
+                        }
+                    }
+                    emitRotationAngles: list[embed] = {
+                        ValueFloat {}
+                    }
+                    emitRotationAxes: list[vec3] = {
+                        { 1.00000012, 0, 0 }
+                    }
+                }
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -60, 10 }
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.0784313753, 0.0431372561, 0.352941185, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.600000024
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.650980413, 0.513725519, 0.960784316, 0 }
+                            { 0, 0, 0, 1 }
+                            { 0, 0, 0, 1 }
+                            { 0, 0, 0, 0 }
+                        }
+                    }
+                }
+                colorLookUpTypeY: u8 = 3
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.100000001
+                                1
+                            }
+                            values: list[f32] = {
+                                0.400000006
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionMapName: string = "ASSETS/vfxhub/Riven_Skin23_Z_FlameErosion_Spirit_Blossom_Aura.dds"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                particleIsLocalOrientation: flag = false
+                isRandomStartFrame: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 90, -90 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 90, 80, 1 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.800000012
+                                    1.5
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    0.5
+                                    0.50999999
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    -1
+                                    1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 90, 80, 1 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.899999976, 0.699999988, 0 }
+                            { 1, 1, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/Riven_Skin23_Z_FlameQuads_Spirit_Blossom_Aura.dds"
+                numFrames: u16 = 6
+                texDiv: vec2 = { 3, 2 }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 13
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.550000012
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    0.850000024
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            0.550000012
+                        }
+                    }
+                }
+                lifetime: option[f32] = {
+                    999999
+                }
+                emitterName: string = "Pieces"
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 100, 0 }
+                }
+                worldAcceleration: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, 50, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 50, 0 }
+                        }
+                    }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 0.300000012
+                }
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
+                    emitOffset: embed = ValueVector3 {
+                        constantValue: vec3 = { 0, -50, 2 }
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                }
+                                VfxProbabilityTableData {}
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 0, -50, 2 }
+                            }
+                        }
+                    }
+                    emitRotationAngles: list[embed] = {
+                        ValueFloat {}
+                    }
+                    emitRotationAxes: list[vec3] = {
+                        { 1.00000012, 0, 0 }
+                    }
+                }
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 20, 10 }
+                }
+                blendMode: u8 = 1
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.0784313753, 0.0431372561, 0.352941185, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.300000012
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0, 0, 0, 1 }
+                            { 0, 0, 0, 1 }
+                            { 0.650980413, 0.513725519, 0.960784316, 0 }
+                        }
+                    }
+                }
+                colorLookUpTypeY: u8 = 3
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[f32] = {
+                                0.400000006
+                                1
+                            }
+                        }
+                    }
+                    erosionMapName: string = "ASSETS/vfxhub/Riven_Skin23_Z_FlameErosion_Spirit_Blossom_Aura.dds"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                isUniformScale: flag = true
+                isRandomStartFrame: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 90, 1 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -360
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -360
+                                    360
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 1, 90, 1 }
+                        }
+                    }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 50, 80, 1 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.800000012
+                                    1.5
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 50, 80, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/Riven_Skin23_Z_FlameQuads_Spirit_Blossom_Aura.dds"
+                numFrames: u16 = 6
+                texDiv: vec2 = { 3, 2 }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 5
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.899999976
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    0.850000024
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            0.899999976
+                        }
+                    }
+                }
+                lifetime: option[f32] = {
+                    999999
+                }
+                emitterName: string = "BackgroundFlames1"
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -50, 0 }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
+                    emitOffset: embed = ValueVector3 {
+                        constantValue: vec3 = { 0, 10, 2 }
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                }
+                                VfxProbabilityTableData {}
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 0, 10, 2 }
+                            }
+                        }
+                    }
+                    emitRotationAngles: list[embed] = {
+                        ValueFloat {}
+                    }
+                    emitRotationAxes: list[vec3] = {
+                        { 1.00000012, 0, 0 }
+                    }
+                }
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -60, 10 }
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.0666666701, 0.0352941193, 0.31764707, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.600000024
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.650980413, 0.513725519, 0.960784316, 0 }
+                            { 0, 0, 0, 1 }
+                            { 0.650980413, 0.513725519, 0.960784316, 1 }
+                            { 0.650980413, 0.513725519, 0.960784316, 0 }
+                        }
+                    }
+                }
+                colorLookUpTypeY: u8 = 3
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.100000001
+                                1
+                            }
+                            values: list[f32] = {
+                                0.400000006
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionMapName: string = "ASSETS/vfxhub/Riven_Skin23_Z_FlameErosion_Spirit_Blossom_Aura.dds"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                particleIsLocalOrientation: flag = false
+                isRandomStartFrame: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 0, -90 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 90, 80, 1 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.800000012
+                                    1.5
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    0.5
+                                    0.50999999
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    -1
+                                    1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 90, 80, 1 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.899999976, 0.699999988, 0 }
+                            { 1, 1, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/Riven_Skin23_Z_FlameQuads_Spirit_Blossom_Aura.dds"
+                numFrames: u16 = 6
+                texDiv: vec2 = { 3, 2 }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 5
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    0.850000024
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            1
+                        }
+                    }
+                }
+                lifetime: option[f32] = {
+                    999999
+                }
+                emitterName: string = "HandlePlume1"
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -100, 0 }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                }
+                worldAcceleration: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, 50, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 50, 0 }
+                        }
+                    }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
+                    emitOffset: embed = ValueVector3 {
+                        constantValue: vec3 = { -5, -30, 2 }
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                }
+                                VfxProbabilityTableData {}
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { -5, -30, 2 }
+                            }
+                        }
+                    }
+                    emitRotationAngles: list[embed] = {
+                        ValueFloat {}
+                    }
+                    emitRotationAxes: list[vec3] = {
+                        { 1.00000012, 0, 0 }
+                    }
+                }
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 20, 10 }
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.0784313753, 0.0431372561, 0.352941185, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.600000024
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.650980413, 0.513725519, 0.960784316, 0 }
+                            { 0, 0, 0, 1 }
+                            { 0.650980413, 0.513725519, 0.960784316, 1 }
+                            { 0, 0, 0, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 12
+                colorLookUpTypeY: u8 = 3
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.100000001
+                                1
+                            }
+                            values: list[f32] = {
+                                0.400000006
+                                0.300000012
+                                1
+                            }
+                        }
+                    }
+                    erosionMapName: string = "ASSETS/vfxhub/Riven_Skin23_Z_FlameErosion_Spirit_Blossom_Aura.dds"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                particleIsLocalOrientation: flag = false
+                isUniformScale: flag = true
+                isRandomStartFrame: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 90, 1 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -360
+                                    360
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 90, 1 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 50, 80, 1 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.800000012
+                                    1.5
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 50, 80, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/Riven_Skin23_Z_FlameQuads_Spirit_Blossom_Aura.dds"
+                numFrames: u16 = 6
+                texDiv: vec2 = { 3, 2 }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 5
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.899999976
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    0.850000024
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            0.899999976
+                        }
+                    }
+                }
+                lifetime: option[f32] = {
+                    999999
+                }
+                emitterName: string = "BackgroundFlames"
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -50, 0 }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
+                    emitOffset: embed = ValueVector3 {
+                        constantValue: vec3 = { 0, 20, 2 }
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                }
+                                VfxProbabilityTableData {}
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 0, 20, 2 }
+                            }
+                        }
+                    }
+                    emitRotationAngles: list[embed] = {
+                        ValueFloat {}
+                    }
+                    emitRotationAxes: list[vec3] = {
+                        { 1.00000012, 0, 0 }
+                    }
+                }
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -60, 10 }
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.0784313753, 0.0431372561, 0.352941185, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.600000024
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0, 0, 0, 0 }
+                            { 0, 0, 0, 1 }
+                            { 0, 0, 0, 1 }
+                            { 0, 0, 0, 0 }
+                        }
+                    }
+                }
+                colorLookUpTypeY: u8 = 3
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.100000001
+                                1
+                            }
+                            values: list[f32] = {
+                                0.400000006
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionMapName: string = "ASSETS/vfxhub/Riven_Skin23_Z_FlameErosion_Spirit_Blossom_Aura.dds"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                particleIsLocalOrientation: flag = false
+                isRandomStartFrame: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 90, -90 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 90, 80, 1 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.800000012
+                                    1.5
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    0.5
+                                    0.50999999
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    -1
+                                    1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 90, 80, 1 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.899999976, 0.699999988, 0 }
+                            { 1, 1, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/Riven_Skin23_Z_FlameQuads_Spirit_Blossom_Aura.dds"
+                numFrames: u16 = 6
+                texDiv: vec2 = { 3, 2 }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 10
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    0.850000024
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            1
+                        }
+                    }
+                }
+                lifetime: option[f32] = {
+                    999999
+                }
+                emitterName: string = "SmolFlames"
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -200, 0 }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                }
+                worldAcceleration: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, 50, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 50, 0 }
+                        }
+                    }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
+                    emitOffset: embed = ValueVector3 {
+                        constantValue: vec3 = { 0, -80, 2 }
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                }
+                                VfxProbabilityTableData {}
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 0, -80, 2 }
+                            }
+                        }
+                    }
+                    emitRotationAngles: list[embed] = {
+                        ValueFloat {}
+                    }
+                    emitRotationAxes: list[vec3] = {
+                        { 1.00000012, 0, 0 }
+                    }
+                }
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 0, 10 }
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0, 0, 0, 1 }
+                }
+                colorLookUpTypeY: u8 = 3
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionMapName: string = "ASSETS/vfxhub/Riven_Skin23_Z_FlameErosion_Spirit_Blossom_Aura.dds"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                particleIsLocalOrientation: flag = false
+                isUniformScale: flag = true
+                isRandomStartFrame: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 90, 1 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -360
+                                    360
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 90, 1 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 50, 80, 1 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.800000012
+                                    1.5
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 50, 80, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/Riven_Skin23_Z_FlameQuads_Spirit_Blossom_Aura.dds"
+                numFrames: u16 = 6
+                texDiv: vec2 = { 3, 2 }
+            }
+        }
+        particleName: string = "Spirit Blossom Aura"
+        particlePath: string = "Spirit Blossom Aura"
+    }
+
+
 
 
 
@@ -6251,6 +7868,7 @@ entries: map[hash,embed] = {
             "Shadow Aura" = "Shadow Aura"
             "Trail Aura" = "Trail Aura"
             "Udyr Aura" = "Udyr Aura"
+            "Spirit Blossom Aura" = "Spirit Blossom Aura"
         }
      }
 } 
