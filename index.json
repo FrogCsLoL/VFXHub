@@ -773,6 +773,18 @@
       ],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-10-17"
+    },
+    "signature2": {
+      "name": "signature2",
+      "description": "signature2",
+      "emitters": 1,
+      "category": "target",
+      "file": "targetvfx.py",
+      "assets": [
+        "collection/assets/vfxhub/Vayne_Skin15_LWX_Signature_signature2.dds"
+      ],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2025-10-17"
     }
   }
 }
