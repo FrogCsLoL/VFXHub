@@ -584,6 +584,22 @@
       ],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-10-17"
+    },
+    "handflamesaura": {
+      "name": "Hand Flames Aura",
+      "description": "Hand Flames Aura",
+      "emitters": 8,
+      "category": "auras",
+      "file": "auravfx.py",
+      "assets": [
+        "collection/assets/vfxhub/Brand_Skin08_Trail_Hand_Flames_Aura.dds",
+        "collection/assets/vfxhub/Brand_Skin08_I_Fire_Cas1_Hand_Flames_Aura.dds",
+        "collection/assets/vfxhub/Brand_Skin08_Glow3_Hand_Flames_Aura.dds",
+        "collection/assets/vfxhub/Brand_Skin08_I_Sparks_01_Hand_Flames_Aura.dds",
+        "collection/assets/vfxhub/Brand_Skin08_Sparkle_Hand_Flames_Aura.dds"
+      ],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2025-10-17"
     }
   }
 }
