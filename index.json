@@ -676,6 +676,18 @@
       ],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-10-17"
+    },
+    "starsaura": {
+      "name": "Stars Aura",
+      "description": "Stars Aura",
+      "emitters": 1,
+      "category": "auras",
+      "file": "auravfx.py",
+      "assets": [
+        "collection/assets/vfxhub/Syndra_Skin34_Sparker02_Stars_Aura.dds"
+      ],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2025-10-17"
     }
   }
 }
