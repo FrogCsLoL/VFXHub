@@ -645,6 +645,20 @@
       ],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-10-17"
+    },
+    "udyraura": {
+      "name": "Udyr Aura",
+      "description": "Udyr Aura",
+      "emitters": 4,
+      "category": "auras",
+      "file": "auravfx.py",
+      "assets": [
+        "collection/assets/vfxhub/Udyr_Base_VGU_Awaken_Glow_Udyr_Aura.dds",
+        "collection/assets/vfxhub/Udyr_Base_VGU_Generic_Erosion01_Udyr_Aura.dds",
+        "collection/assets/vfxhub/Udyr_Base_VGU_Awaken_Tile03_Udyr_Aura.dds"
+      ],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2025-10-17"
     }
   }
 }
