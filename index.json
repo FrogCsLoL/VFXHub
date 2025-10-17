@@ -688,6 +688,23 @@
       ],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-10-17"
+    },
+    "pykesmokeaura": {
+      "name": "Pyke Smoke Aura",
+      "description": "Pyke Smoke Aura",
+      "emitters": 5,
+      "category": "auras",
+      "file": "auravfx.py",
+      "assets": [
+        "collection/assets/vfxhub/Pyke_Skin44_W_GalaxyTwirl_Z01_Pyke_Smoke_Aura.dds",
+        "collection/assets/vfxhub/Pyke_Skin44_Sl_Dust_01_02_Pyke_Smoke_Aura.dds",
+        "collection/assets/vfxhub/Pyke_Skin44_Ash_Pyke_Smoke_Aura.dds",
+        "collection/assets/vfxhub/Pyke_Skin44_Erosion_01_Pyke_Smoke_Aura.dds",
+        "collection/assets/vfxhub/Pyke_Skin44_1Q_SmokeErode_Pyke_Smoke_Aura.dds",
+        "collection/assets/vfxhub/Pyke_Skin44_Vertical_Mask_Z02_Pyke_Smoke_Aura.dds"
+      ],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2025-10-17"
     }
   }
 }
