@@ -633,6 +633,18 @@
       ],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-10-17"
+    },
+    "trailaura": {
+      "name": "Trail Aura",
+      "description": "Trail Aura",
+      "emitters": 1,
+      "category": "auras",
+      "file": "auravfx.py",
+      "assets": [
+        "collection/assets/vfxhub/Sett_Base_Fire_Trail_Graphic_Trail_Aura.dds"
+      ],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2025-10-17"
     }
   }
 }
