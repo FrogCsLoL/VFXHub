@@ -5127,6 +5127,301 @@ entries: map[hash,embed] = {
         particlePath: string = "Edgy Aura"
     }
 
+# VFX_HUB_NAME: Shadow Aura
+# VFX_HUB_DESCRIPTION: Shadow Aura
+# VFX_HUB_CATEGORY: auras
+# VFX_HUB_EMITTERS: 4
+    "Shadow Aura" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                lifetime: option[f32] = {
+                    3000
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Temp_Ray"
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
+                    birthTranslation: embed = ValueVector3 {}
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveRay {}
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.43921569, 0.0392156877, 0.0392156877, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.600000024
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.43921569, 0.0392156877, 0.0392156877, 0 }
+                            { 0.43921569, 0.0392156877, 0.0392156877, 1 }
+                            { 0.43921569, 0.0392156877, 0.0392156877, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -15
+                alphaRef: u8 = 0
+                softParticleParams: pointer = VfxSoftParticleDefinitionData {
+                    deltaIn: f32 = 100
+                }
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 600, 800, 50 }
+                }
+                texture: string = "ASSETS/vfxhub/udyr_base_vgu_awaken_glow_Shadow_Aura.dds"
+                texAddressModeMult: u8 = 2
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -200, 0 }
+                }
+            }
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.300000012
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = -1
+                }
+                lifetime: option[f32] = {
+                    3000
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Temp_Ray1"
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
+                    birthTranslation: embed = ValueVector3 {}
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveRay {}
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.43921569, 0.0392156877, 0.0392156877, 1 }
+                }
+                pass: i16 = -100
+                alphaRef: u8 = 0
+                softParticleParams: pointer = VfxSoftParticleDefinitionData {
+                    deltaIn: f32 = 100
+                }
+                depthBiasFactors: vec2 = { 1, 15 }
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 400, 700, 50 }
+                }
+                texture: string = "ASSETS/vfxhub/udyr_base_vgu_awaken_glow_Shadow_Aura.dds"
+                texAddressModeMult: u8 = 2
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -200, 0 }
+                }
+            }
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.300000012
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = -1
+                }
+                lifetime: option[f32] = {
+                    3000
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Temp_Ray2"
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
+                    birthTranslation: embed = ValueVector3 {}
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveRay {}
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.43921569, 0.0392156877, 0.0392156877, 1 }
+                }
+                pass: i16 = -10
+                alphaRef: u8 = 0
+                softParticleParams: pointer = VfxSoftParticleDefinitionData {
+                    deltaIn: f32 = 100
+                }
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 300, 600, 50 }
+                }
+                texture: string = "ASSETS/vfxhub/udyr_base_vgu_awaken_glow_Shadow_Aura.dds"
+                birthUvScrollRateMult: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, 1 }
+                }
+                uvScaleMult: embed = ValueVector2 {
+                    constantValue: vec2 = { 1, 0.5 }
+                }
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -200, 0 }
+                }
+            }
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.300000012
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                emitterName: string = "Temp_Ray3"
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
+                    birthTranslation: embed = ValueVector3 {}
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveRay {}
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.43921569, 0.0392156877, 0.0392156877, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.43921569, 0.0392156877, 0.0392156877, 0 }
+                            { 0.43921569, 0.0392156877, 0.0392156877, 1 }
+                            { 0.43921569, 0.0392156877, 0.0392156877, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 10
+                alphaRef: u8 = 0
+                softParticleParams: pointer = VfxSoftParticleDefinitionData {
+                    deltaIn: f32 = 100
+                }
+                depthBiasFactors: vec2 = { -1, -50 }
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 300, 500, 50 }
+                }
+                texture: string = "ASSETS/vfxhub/udyr_base_vgu_awaken_glow_Shadow_Aura.dds"
+                textureMult: pointer = 0xb097c1bd {
+                    textureMult: string = "ASSETS/vfxhub/udyr_base_vgu_awaken_tile03_Shadow_Aura.dds"
+                    uvScrollClampMult: flag = true
+                    birthUvScrollRateMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0, 0.400000006 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        0.5
+                                        1
+                                    }
+                                }
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec2] = {
+                                { 0, 0.400000006 }
+                            }
+                        }
+                    }
+                    birthUVOffsetMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 1, 0.5 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        -1
+                                        1
+                                    }
+                                }
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        -1
+                                        1
+                                    }
+                                }
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec2] = {
+                                { 1, 0.5 }
+                            }
+                        }
+                    }
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 1, 0.5 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        0.5
+                                        1
+                                    }
+                                }
+                            }
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[vec2] = {
+                                { 1, 0.25 }
+                                { 1, 1 }
+                            }
+                        }
+                    }
+                }
+                0x563d4a22: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -150, 0 }
+                }
+            }
+        }
+        particleName: string = "Shadow Aura"
+        particlePath: string = "Shadow Aura"
+    }
+
+
 
 
 
@@ -5141,6 +5436,7 @@ entries: map[hash,embed] = {
             "Storm Aura" = "Storm Aura"
             "Hand Flames Aura" = "Hand Flames Aura"
             "Edgy Aura" = "Edgy Aura"
+            "Shadow Aura" = "Shadow Aura"
         }
      }
 } 
