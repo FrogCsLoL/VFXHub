@@ -547,6 +547,18 @@
       ],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-08-18"
+    },
+    "electricity": {
+      "name": "Electricity",
+      "description": "Electricity",
+      "emitters": 3,
+      "category": "auras",
+      "file": "auravfx.py",
+      "assets": [
+        "collection/assets/vfxhub/Sett_Base_W_tar_flipbook_Electricity.dds"
+      ],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2025-10-17"
     }
   }
 }
