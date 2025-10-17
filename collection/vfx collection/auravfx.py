@@ -4230,6 +4230,904 @@ entries: map[hash,embed] = {
         particlePath: string = "Hand Flames Aura"
     }
 
+# VFX_HUB_NAME: Edgy Aura
+# VFX_HUB_DESCRIPTION: Edgy Aura
+# VFX_HUB_CATEGORY: auras
+# VFX_HUB_EMITTERS: 8
+    "Edgy Aura" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 60
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.699999988
+                                    1.5
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            1
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    4
+                }
+                lifetime: option[f32] = {
+                    3000
+                }
+                emitterName: string = "ShadowWisps"
+                birthOrbitalVelocity: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.300000012
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 205, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.600000024
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.699999988
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 205, 0 }
+                        }
+                    }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = VfxShapeCylinder {
+                    flags: u8 = 1
+                    radius: f32 = 35
+                    height: f32 = 100
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 50, 0 }
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                particleColorTexture: string = "ASSETS/vfxhub/Edgy Aura_texture.tex"
+                blendMode: u8 = 1
+                Color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.90196079 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.933333337, 1, 0, 0.90196079 }
+                            { 0.933333337, 1, 0, 0.90196079 }
+                        }
+                    }
+                }
+                isRandomStartFrame: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 37.5, 37.5, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    0.5
+                                    0.511099994
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1.5
+                                    -1
+                                    1
+                                    1.5
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 37.5, 37.5, 0 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.200000003
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, 1, 0 }
+                            { 0.200000003, 5, 1 }
+                            { 1, 3, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/zed_shadowwisps_Edgy_Aura.dds"
+                numFrames: u16 = 16
+                texDiv: vec2 = { 4, 4 }
+                translationOverride: vec3 = { 0, -250, 0 }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 10
+                }
+                particleLinger: option[f32] = {
+                    2.5
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "glow"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.580392182, 0.0392156877, 0.176470593, 0.140001521 }
+                }
+                pass: i16 = -1
+                meshRenderFlags: u8 = 0
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 150, 350, 350 }
+                }
+                texture: string = "ASSETS/vfxhub/Akali_Skin14_BackDrop_Edgy_Aura.dds"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 3000
+                }
+                particleLinger: option[f32] = {
+                    5
+                }
+                lifetime: option[f32] = {
+                    3000
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "flamering"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                Color: embed = ValueColor {
+                    constantValue: vec4 = { 0.0800030529, 0.0899977088, 0.130006865, 0.600000024 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.0777751058
+                            0.191451207
+                            0.250181049
+                            0.453055173
+                            0.77700001
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.0800030529, 0.0899977088, 0.130006865, 0.600000024 }
+                            { 0.0800030529, 0.0899977088, 0.130006865, 0.600000024 }
+                            { 0.0800030529, 0.0899977088, 0.130006865, 0.600000024 }
+                            { 0.0800030529, 0.0899977088, 0.130006865, 0.600000024 }
+                            { 0.0800030529, 0.0899977088, 0.130006865, 0.600000024 }
+                            { 0.0800030529, 0.0899977088, 0.130006865, 0.600000024 }
+                            { 0.0800030529, 0.0899977088, 0.130006865, 0.600000024 }
+                        }
+                    }
+                }
+                pass: i16 = 1
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[f32] = {
+                                0.200000003
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.200000003
+                    erosionMapName: string = "ASSETS/vfxhub/TestVFX_E_Inkpact_01_Erode_Edgy_Aura.dds"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isRotationEnabled: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 360, 1 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    360
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { -90, 360, 1 }
+                        }
+                    }
+                }
+                isLocalOrientation: flag = false
+                rotation0: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, -2, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, -2, 0 }
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 130, 300, 300 }
+                }
+                texture: string = "ASSETS/vfxhub/Akali_Skin14_BackDrop_Edgy_Aura.dds"
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { -1, 1 }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 3000
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    3000
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "flamering1"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.300007641 }
+                }
+                Color: embed = ValueColor {
+                    constantValue: vec4 = { 0.65882355, 0.180392161, 1, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.0777751058
+                            0.191451207
+                            0.250181049
+                            0.453055173
+                            0.77700001
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.580392182, 0.0392156877, 0.176470593, 1 }
+                            { 0.580392182, 0.0392156877, 0.176470593, 1 }
+                            { 0.580392182, 0.0392156877, 0.176470593, 1 }
+                            { 0.580392182, 0.0392156877, 0.176470593, 1 }
+                            { 0.580392182, 0.0392156877, 0.176470593, 1 }
+                            { 0.580392182, 0.0392156877, 0.176470593, 1 }
+                            { 0.580392182, 0.0392156877, 0.176470593, 1 }
+                        }
+                    }
+                }
+                pass: i16 = 2
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[f32] = {
+                                0.200000003
+                                1.10000002
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.200000003
+                    erosionFeatherOut: f32 = 0.200000003
+                    erosionMapName: string = "ASSETS/vfxhub/TestVFX_E_Inkpact_01_Erode_Edgy_Aura.dds"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isRotationEnabled: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 360, 1 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    360
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { -90, 360, 1 }
+                        }
+                    }
+                }
+                isLocalOrientation: flag = false
+                rotation0: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, -2, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, -2, 0 }
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 140, 250, 250 }
+                }
+                texture: string = "ASSETS/vfxhub/Akali_Skin14_BackDrop_Edgy_Aura.dds"
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { -1, 1 }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 3000
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    3000
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "flamering2"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.400000006 }
+                }
+                Color: embed = ValueColor {
+                    constantValue: vec4 = { 0.486274511, 0.286274523, 0.650980413, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.0777751058
+                            0.191451207
+                            0.250181049
+                            0.453055173
+                            0.77700001
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.447058827, 0.0313725509, 0.137254909, 1 }
+                            { 0.447058827, 0.0313725509, 0.137254909, 1 }
+                            { 0.447058827, 0.0313725509, 0.137254909, 1 }
+                            { 0.447058827, 0.0313725509, 0.137254909, 1 }
+                            { 0.447058827, 0.0313725509, 0.137254909, 1 }
+                            { 0.447058827, 0.0313725509, 0.137254909, 1 }
+                            { 0.447058827, 0.0313725509, 0.137254909, 1 }
+                        }
+                    }
+                }
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[f32] = {
+                                0.200000003
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.200000003
+                    erosionFeatherOut: f32 = 0.200000003
+                    erosionMapName: string = "ASSETS/vfxhub/TestVFX_E_Inkpact_01_Erode_Edgy_Aura.dds"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isRotationEnabled: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 360, 1 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    360
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { -90, 360, 1 }
+                        }
+                    }
+                }
+                isLocalOrientation: flag = false
+                rotation0: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, -2, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, -2, 0 }
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 120, 250, 250 }
+                }
+                texture: string = "ASSETS/vfxhub/Akali_Skin14_BackDrop_Edgy_Aura.dds"
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { -1, 1 }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 3000
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    3000
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "flamering3"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                Color: embed = ValueColor {
+                    constantValue: vec4 = { 0.0800030529, 0.0899977088, 0.130006865, 0.600000024 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.0777751058
+                            0.191451207
+                            0.250181049
+                            0.453055173
+                            0.77700001
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.0800030529, 0.0899977088, 0.130006865, 0.600000024 }
+                            { 0.0800030529, 0.0899977088, 0.130006865, 0.600000024 }
+                            { 0.0800030529, 0.0899977088, 0.130006865, 0.600000024 }
+                            { 0.0800030529, 0.0899977088, 0.130006865, 0.600000024 }
+                            { 0.0800030529, 0.0899977088, 0.130006865, 0.600000024 }
+                            { 0.0800030529, 0.0899977088, 0.130006865, 0.600000024 }
+                            { 0.0800030529, 0.0899977088, 0.130006865, 0.600000024 }
+                        }
+                    }
+                }
+                pass: i16 = -3
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[f32] = {
+                                0.200000003
+                                1.20000005
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.200000003
+                    erosionMapName: string = "ASSETS/vfxhub/TestVFX_E_Inkpact_Erode_03_Edgy_Aura.dds"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isRotationEnabled: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 360, 1 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    360
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { -90, 360, 1 }
+                        }
+                    }
+                }
+                isLocalOrientation: flag = false
+                rotation0: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, -2, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, -2, 0 }
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 150, 300, 300 }
+                }
+                texture: string = "ASSETS/vfxhub/Akali_Skin14_BackDrop_Edgy_Aura.dds"
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { -1, 1 }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 3000
+                }
+                lifetime: option[f32] = {
+                    3000
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "up_glow"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -15, 0 }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/vfxhub/Yone_Skin35_Cylinder_02_Edgy_Aura.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                Color: embed = ValueColor {
+                    constantValue: vec4 = { 0.910002291, 0.910002291, 0.910002291, 0.39000535 }
+                }
+                disableBackfaceCull: bool = true
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0.75, 2, 0.75 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 1, 1 }
+                            { 1, 1.10000002, 1 }
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/Yone_Skin35_Noise_Ink_Edgy_Aura.dds"
+                birthUvScrollRate: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, 0.300000012 }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 1.5, 0.5 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/vfxhub/Yone_Skin35_Mask_Edge_Vertical_Edgy_Aura.dds"
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 3000
+                }
+                lifetime: option[f32] = {
+                    3000
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "up_glow1"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -15, 0 }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/vfxhub/Yone_Skin35_Cylinder_02_Edgy_Aura.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                Color: embed = ValueColor {
+                    constantValue: vec4 = { 0.910002291, 0.910002291, 0.910002291, 0.669993162 }
+                }
+                disableBackfaceCull: bool = true
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0.75, 2, 0.75 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 1, 1 }
+                            { 1, 1.10000002, 1 }
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/Yone_Skin35_Streaks_Vertical_Edgy_Aura.dds"
+                paletteDefinition: pointer = VfxPaletteDefinitionData {
+                    paletteTexture: string = "ASSETS/vfxhub/Yone_Skin35_E_Smoke_Palette_Edgy_Aura.dds"
+                    palleteSrcMixColor: embed = ValueColor {
+                        constantValue: vec4 = { 0, 1, 0, 0 }
+                    }
+                    PaletteUAnimationCurve: embed = ValueFloat {
+                        constantValue: f32 = 2
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                2
+                            }
+                        }
+                    }
+                }
+                birthUvScrollRate: embed = ValueVector2 {
+                    constantValue: vec2 = { 0.0199999996, 0.300000012 }
+                }
+                texAddressModeBase: u8 = 1
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 0.75, 1 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/vfxhub/Yone_Skin35_Mask_Edge_Vertical_Edgy_Aura.dds"
+                }
+            }
+        }
+        particleName: string = "Edgy Aura"
+        particlePath: string = "Edgy Aura"
+    }
+
+
 
 
 
@@ -4242,6 +5140,7 @@ entries: map[hash,embed] = {
             "Electricity" = "Electricity"
             "Storm Aura" = "Storm Aura"
             "Hand Flames Aura" = "Hand Flames Aura"
+            "Edgy Aura" = "Edgy Aura"
         }
      }
 } 
