@@ -659,6 +659,23 @@
       ],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-10-17"
+    },
+    "spiritblossomaura": {
+      "name": "Spirit Blossom Aura",
+      "description": "Spirit Blossom Aura",
+      "emitters": 12,
+      "category": "auras",
+      "file": "auravfx.py",
+      "assets": [
+        "collection/assets/vfxhub/Riven_Skin20_R_Glow_Spirit_Blossom_Aura.dds",
+        "collection/assets/vfxhub/Riven_Skin23_Z_color-hold_Spirit_Blossom_Aura.dds",
+        "collection/assets/vfxhub/Riven_Skin23_Z_FlameQuads_Spirit_Blossom_Aura.dds",
+        "collection/assets/vfxhub/Riven_Skin23_R_Sword01_Spirit_Blossom_Aura.scb",
+        "collection/assets/vfxhub/Riven_Skin23_Z_FlameErosion_Spirit_Blossom_Aura.dds",
+        "collection/assets/vfxhub/Riven_Skin23_Z_GradientMult_Spirit_Blossom_Aura.dds"
+      ],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2025-10-17"
     }
   }
 }
