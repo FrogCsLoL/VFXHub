@@ -620,6 +620,19 @@
       ],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-10-17"
+    },
+    "shadowaura": {
+      "name": "Shadow Aura",
+      "description": "Shadow Aura",
+      "emitters": 4,
+      "category": "auras",
+      "file": "auravfx.py",
+      "assets": [
+        "collection/assets/vfxhub/udyr_base_vgu_awaken_glow_Shadow_Aura.dds",
+        "collection/assets/vfxhub/udyr_base_vgu_awaken_tile03_Shadow_Aura.dds"
+      ],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2025-10-17"
     }
   }
 }
