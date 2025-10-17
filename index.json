@@ -761,6 +761,18 @@
       ],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-10-17"
+    },
+    "signature": {
+      "name": "Signature",
+      "description": "Signature",
+      "emitters": 1,
+      "category": "auras",
+      "file": "bufvfx.py",
+      "assets": [
+        "collection/assets/vfxhub/Vayne_Skin15_LWX_Signature.dds"
+      ],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2025-10-17"
     }
   }
 }
