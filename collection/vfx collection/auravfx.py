@@ -5421,6 +5421,80 @@ entries: map[hash,embed] = {
         particlePath: string = "Shadow Aura"
     }
 
+# VFX_HUB_NAME: Trail Aura
+# VFX_HUB_DESCRIPTION: Trail Aura
+# VFX_HUB_CATEGORY: auras
+# VFX_HUB_EMITTERS: 1
+    "Trail Aura" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 60
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.25
+                }
+                lifetime: option[f32] = {
+                    9.99999988e+26
+                }
+                emitterName: string = "Pantheon1"
+                importance: u8 = 2
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
+                    birthTranslation: embed = ValueVector3 {}
+                }
+                primitive: pointer = VfxPrimitiveArbitraryTrail {
+                    mTrail: embed = VfxTrailDefinitionData {
+                        mMode: u8 = 1
+                        mBirthTilingSize: embed = ValueVector3 {
+                            constantValue: vec3 = { 700, 0, 0 }
+                        }
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0, 0, 0, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.586614192
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0, 0, 0, 1 }
+                            { 0, 0, 0, 1 }
+                            { 0, 0, 0, 0 }
+                        }
+                    }
+                }
+                alphaRef: u8 = 0
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 60, 100, 0 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.5, 0, 0 }
+                            { 0.300000012, 1, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/Sett_Base_Fire_Trail_Graphic_Trail_Aura.dds"
+                birthUvScrollRate: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, 1 }
+                }
+            }
+        }
+        particleName: string = "Trail Aura"
+        particlePath: string = "Trail Aura"
+    }
+
+
 
 
 
@@ -5437,6 +5511,7 @@ entries: map[hash,embed] = {
             "Hand Flames Aura" = "Hand Flames Aura"
             "Edgy Aura" = "Edgy Aura"
             "Shadow Aura" = "Shadow Aura"
+            "Trail Aura" = "Trail Aura"
         }
      }
 } 
