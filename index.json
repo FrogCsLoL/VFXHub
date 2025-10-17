@@ -600,6 +600,26 @@
       ],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-10-17"
+    },
+    "edgyaura": {
+      "name": "Edgy Aura",
+      "description": "Edgy Aura",
+      "emitters": 8,
+      "category": "auras",
+      "file": "auravfx.py",
+      "assets": [
+        "collection/assets/vfxhub/color-bellcurve32_Edgy_Aura.dds",
+        "collection/assets/vfxhub/zed_shadowwisps_Edgy_Aura.dds",
+        "collection/assets/vfxhub/Akali_Skin14_BackDrop_Edgy_Aura.dds",
+        "collection/assets/vfxhub/Yone_Skin35_Noise_Ink_Edgy_Aura.dds",
+        "collection/assets/vfxhub/Yone_Skin35_Streaks_Vertical_Edgy_Aura.dds",
+        "collection/assets/vfxhub/Yone_Skin35_E_Smoke_Palette_Edgy_Aura.dds",
+        "collection/assets/vfxhub/Yone_Skin35_Cylinder_02_Edgy_Aura.scb",
+        "collection/assets/vfxhub/TestVFX_E_Inkpact_01_Erode_Edgy_Aura.dds",
+        "collection/assets/vfxhub/Yone_Skin35_Mask_Edge_Vertical_Edgy_Aura.dds"
+      ],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2025-10-17"
     }
   }
 }
