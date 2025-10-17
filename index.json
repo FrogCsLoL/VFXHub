@@ -559,6 +559,31 @@
       ],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-10-17"
+    },
+    "stormaura": {
+      "name": "Storm Aura",
+      "description": "Storm Aura",
+      "emitters": 9,
+      "category": "auras",
+      "file": "auravfx.py",
+      "assets": [
+        "collection/assets/vfxhub/Ezreal_Skin21_Q_Lightning02_Storm_Aura.dds",
+        "collection/assets/vfxhub/color-rampdown32_03_Storm_Aura.dds",
+        "collection/assets/vfxhub/distort-pinch_Storm_Aura.dds",
+        "collection/assets/vfxhub/Aura_Self_Storm_Aura.dds",
+        "collection/assets/vfxhub/Ezreal_Skin21_P_ShockRing_Storm_Aura.dds",
+        "collection/assets/vfxhub/Ezreal_Skin21_E_Star_1_Storm_Aura.dds",
+        "collection/assets/vfxhub/Lux_Skin07_P_Distort_RGBA_2_Storm_Aura.dds",
+        "collection/assets/vfxhub/Ezreal_Skin21_P_Circle_normal_Storm_Aura.dds",
+        "collection/assets/vfxhub/Ezreal_Skin21_P_White_Storm_Aura.dds",
+        "collection/assets/vfxhub/Ezreal_Skin21_P_Dirt_Storm_Aura.dds",
+        "collection/assets/vfxhub/color-hold_Storm_Aura.dds",
+        "collection/assets/vfxhub/Ezreal_Skin21_E_AnimeBurstMesh02_Storm_Aura.scb",
+        "collection/assets/vfxhub/Ezreal_Skin21_Q_ErosionShapes01_Storm_Aura.dds",
+        "collection/assets/vfxhub/Ezreal_Skin21_E_ErosionSphere02_Storm_Aura.dds"
+      ],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2025-10-17"
     }
   }
 }
