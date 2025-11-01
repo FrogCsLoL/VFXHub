@@ -833,6 +833,24 @@
       ],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-10-29"
+    },
+    "fireauraidle": {
+      "name": "FireAuraIdle",
+      "description": "",
+      "emitters": 7,
+      "category": "auras",
+      "file": "auravfx.py",
+      "assets": [
+        "collection/assets/vfxhub/common_color-bellcurve32_FireAuraIdle.tex",
+        "collection/assets/vfxhub/Trundle_R_Black_Background_FireAuraIdle.tex",
+        "collection/assets/vfxhub/Morgana_Base_FirePillar_FireAuraIdle.tex",
+        "collection/assets/vfxhub/Fire_ember_FireAuraIdle.tex",
+        "collection/assets/vfxhub/Trundle_Skin06_Embers_FireAuraIdle.tex",
+        "collection/assets/vfxhub/Morde_Skin06_Dust_FireAuraIdle.tex",
+        "collection/assets/vfxhub/Trundle_Skin06_Q_SmokeErode_FireAuraIdle.tex"
+      ],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2025-11-01"
     }
   }
 }
