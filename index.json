@@ -775,16 +775,23 @@
       "upload_date": "2025-10-17"
     },
     "signature2": {
-      "name": "signature2",
-      "description": "signature2",
-      "emitters": 1,
-      "category": "target",
-      "file": "targetvfx.py",
+      "name": "Signature2",
+      "description": "",
+      "emitters": 4,
+      "category": "buf",
+      "file": "bufvfx.py",
       "assets": [
-        "collection/assets/vfxhub/Vayne_Skin15_LWX_Signature_signature2.dds"
+        "collection/assets/vfxhub/leesin_skin29_ovalmask_Signature2.dds",
+        "collection/assets/vfxhub/leesin_skin29_recall_bars_Signature2.dds",
+        "collection/assets/vfxhub/leesin_skin29_recall_bars_glow_Signature2.dds",
+        "collection/assets/vfxhub/flame_trail_gradient_Signature2.dds",
+        "collection/assets/vfxhub/leesin_skin29_signature_Signature2.dds",
+        "collection/assets/vfxhub/leesin_skin29_e_ribbon_03softerode_Signature2.dds",
+        "collection/assets/vfxhub/leesin_skin29_signature_erosion_Signature2.dds",
+        "collection/assets/vfxhub/leesin_skin29_actionlinesmult_Signature2.dds"
       ],
       "uploaded_by": "FrogCsLoL",
-      "upload_date": "2025-10-17"
+      "upload_date": "2025-12-17"
     },
     "finalform": {
       "name": "Final Form",
