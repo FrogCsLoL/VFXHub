@@ -8322,6 +8322,352 @@ mEyeCandy: bool = true
         }
     }
 
+# VFX_HUB_NAME: Signature2
+# VFX_HUB_CATEGORY: buf
+# VFX_HUB_EMITTERS: 4
+    "Signature2" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.349999994
+                }
+                lifetime: option[f32] = {
+                    0.699999988
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "LightSwipe"
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 2000, 0 }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 8, 8, 8 }
+                }
+                worldAcceleration: embed = IntegratedValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 100, 0 }
+                }
+                blendMode: u8 = 1
+                Color: embed = ValueColor {
+                    constantValue: vec4 = { 0.269993126, 0, 0, 0.340001523 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.150000006
+                            0.200000003
+                            0.400000006
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.270588249, 0, 0.0784313753, 0 }
+                            { 0.270588249, 0, 0.0784313753, 0.217334315 }
+                            { 0.270588249, 0, 0.0784313753, 0.340001523 }
+                            { 0.270588249, 0, 0.0784313753, 0.224001005 }
+                            { 0.270588249, 0, 0.0784313753, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -104
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0.5
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionMapName: string = "ASSETS/vfxhub/leesin_skin29_e_ribbon_03softerode_Signature2.dds"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 90, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 200, 100, 0 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.300000012
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 1 }
+                            { 1, 1, 1 }
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/leesin_skin29_ovalmask_Signature2.dds"
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/vfxhub/leesin_skin29_actionlinesmult_Signature2.dds"
+                    birthUvScrollRateMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 6, 0 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.800000012
+                }
+                lifetime: option[f32] = {
+                    2
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Bar"
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 0, -260 }
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 4
+                Color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.380392164, 0.0235294122, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.0199999996
+                            0.0299999993
+                            0.24011299
+                            0.5
+                            0.600000024
+                            0.699999988
+                            0.800000012
+                            0.899999976
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 0.0901960805, 0.0235294122, 0 }
+                            { 1, 0.0784313753, 0.0196078438, 1 }
+                            { 1, 0.0235294122, 0.0117647061, 1 }
+                            { 1, 0.0235294122, 0.0117647061, 1 }
+                            { 1, 0.0235294122, 0.0117647061, 1 }
+                            { 1, 0.0196078438, 0.0117647061, 0 }
+                            { 1, 0.0196078438, 0.0117647061, 1 }
+                            { 1, 0.0196078438, 0.0117647061, 0 }
+                            { 1, 0.0196078438, 0.0117647061, 1 }
+                            { 1, 0, 0.313725501, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 500
+                miscRenderFlags: u8 = 1
+                isGroundLayer: flag = true
+                isLocalOrientation: flag = false
+                useNavmeshMask: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 90, 90, 5 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 70, 320, 0 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.150000006
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0.400000006 }
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/leesin_skin29_recall_bars_Signature2.dds"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.200000003
+                }
+                lifetime: option[f32] = {
+                    2
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Bar_Glow"
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 0, -260 }
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 4
+                Color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.631372571, 0.482352942, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.0199999996
+                            0.0299999993
+                            0.24011299
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 0.498039216, 0.482352942, 0 }
+                            { 1, 0.454901963, 0.396078438, 1 }
+                            { 1, 0.258823544, 0.243137255, 1 }
+                            { 1, 0.258823544, 0.243137255, 1 }
+                            { 1, 0.258823544, 0.243137255, 1 }
+                            { 1, 0, 0.313725501, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 500
+                miscRenderFlags: u8 = 1
+                isGroundLayer: flag = true
+                useNavmeshMask: flag = true
+                isLocalOrientation: flag = false
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 90, 90, 5 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 70, 320, 0 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.200000003
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0.400000006 }
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/leesin_skin29_recall_bars_glow_Signature2.dds"
+                paletteDefinition: pointer = VfxPaletteDefinitionData {
+                    paletteTexture: string = "ASSETS/vfxhub/flame_trail_gradient_Signature2.dds"
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 12
+                }
+                lifetime: option[f32] = {
+                    4
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "SignatureAdd"
+                importance: u8 = 2
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 0, -260 }
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.970000744 }
+                }
+                Color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.0500000007
+                            0.0799999982
+                            0.100000001
+                            0.119999997
+                            0.150000006
+                            0.170000002
+                            0.479999989
+                            0.495000005
+                            0.529999971
+                            0.550000012
+                            0.660000026
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.674509823, 0, 0, 0 }
+                            { 0.674509823, 0, 0, 1 }
+                            { 0.674509823, 0, 0, 0.790005326 }
+                            { 0.674509823, 0, 0, 1 }
+                            { 0.674509823, 0, 0, 0.792156875 }
+                            { 0.674509823, 0, 0, 1 }
+                            { 0.674509823, 0, 0, 0.792156875 }
+                            { 0.674509823, 0, 0, 0.790005326 }
+                            { 0.674509823, 0, 0, 1 }
+                            { 0.674509823, 0, 0, 0.800000012 }
+                            { 0.674509823, 0, 0, 0.800000012 }
+                            { 0.674509823, 0, 0, 0.800000012 }
+                            { 0.674509823, 0, 0, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -101
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.100000001
+                            }
+                            values: list[f32] = {
+                                1
+                                0
+                            }
+                        }
+                    }
+                    erosionSliceWidth: f32 = 1.14999998
+                    erosionMapName: string = "ASSETS/vfxhub/leesin_skin29_signature_erosion_Signature2.dds"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                    erosionMapAddressMode: u8 = 0
+                }
+                miscRenderFlags: u8 = 1
+                isGroundLayer: flag = true
+                useNavmeshMask: flag = true
+                isLocalOrientation: flag = false
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, -97, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 45, 150, 150 }
+                }
+                texture: string = "ASSETS/vfxhub/leesin_skin29_signature_Signature2.dds"
+            }
+        }
+        particleName: string = "Signature2"
+        particlePath: string = "Signature2"
+        transform: mtx44 = {
+            1.10000002, 0, 0, 0
+            0, 1.10000002, 0, 0
+            0, 0, 1.10000002, 0
+            0, 0, 0, 1
+        }
+    }
+
+
 
 
 
@@ -8334,6 +8680,7 @@ mEyeCandy: bool = true
             "testebay" = "testebay"
             "Challenger Recall" = "Challenger Recall"
             "Signature" = "Signature"
+            "Signature2" = "Signature2"
         }
      }
 } 
