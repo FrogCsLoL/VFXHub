@@ -878,6 +878,16 @@
       "assets": [],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2026-02-26"
+    },
+    "settauramax2": {
+      "name": "SettAuraMax2",
+      "description": "",
+      "emitters": 27,
+      "category": "auras",
+      "file": "auravfx.py",
+      "assets": [],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2026-02-26"
     }
   }
 }
