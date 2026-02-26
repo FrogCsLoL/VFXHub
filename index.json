@@ -858,6 +858,16 @@
       ],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2025-11-01"
+    },
+    "settaura": {
+      "name": "SettAura",
+      "description": "",
+      "emitters": 27,
+      "category": "auras",
+      "file": "auravfx.py",
+      "assets": [],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2026-02-26"
     }
   }
 }
