@@ -868,6 +868,16 @@
       "assets": [],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2026-02-26"
+    },
+    "nimblefootaura": {
+      "name": "NimbleFootAura",
+      "description": "",
+      "emitters": 16,
+      "category": "auras",
+      "file": "auravfx.py",
+      "assets": [],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2026-02-26"
     }
   }
 }
