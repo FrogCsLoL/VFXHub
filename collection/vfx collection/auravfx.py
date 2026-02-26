@@ -17329,6 +17329,2367 @@ entries: map[hash,embed] = {
         particlePath: string = "SettAura"
     }
 
+# VFX_HUB_NAME: NimbleFootAura
+# VFX_HUB_CATEGORY: auras
+# VFX_HUB_EMITTERS: 16
+    "NimbleFootAura" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 4
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLinger: option[f32] = {
+                    0.200000003
+                }
+                emitterName: string = "Basic1"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = VfxShapeSphere {
+                    flags: u8 = 1
+                    radius: f32 = 45
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 150, 0 }
+                }
+                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
+                    scaleBirthScaleByBoundObjectSize: f32 = 0.00400000019
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.0705882385, 0.0705882385, 0.0705882385, 0.680003047 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -5
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 0, 90 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 150, 170, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.699999988
+                                    1.20000005
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 150, 170, 0 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 1, 1 }
+                            { 1.5, 1.5, 1.5 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/PetNimblefoot_Skin6_Emote_MisGlow_NimbleFootAura.tex"
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/vfxhub/PetNimblefoot_Skin6_Emote_SmokeA_NimbleFootAura.tex"
+                    birthUvScrollRateMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0, 3 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.100000001
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 15
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.200000003
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            1
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "BurstSparks1"
+                birthOrbitalVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 2, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 2, 0 }
+                        }
+                    }
+                }
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 200, 70, 200 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    10
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 200, 70, 200 }
+                        }
+                    }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 2, 2, 2 }
+                }
+                SpawnShape: pointer = VfxShapeBox {
+                    flags: u8 = 1
+                    Size: vec3 = { 45, 2, 45 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 50, 0 }
+                }
+                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
+                    scaleBirthScaleByBoundObjectSize: f32 = 0.00400000019
+                }
+                blendMode: u8 = 4
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.454901963, 0.0941176489, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.200000003
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 1 }
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 35
+                particleIsLocalOrientation: flag = true
+                isDirectionOriented: flag = true
+                isRandomStartFrame: flag = true
+                directionVelocityScale: f32 = 0.00800000038
+                directionVelocityMinScale: f32 = 1.29999995
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 10, 20, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.300000012
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.300000012
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 10, 20, 0 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                            { 1, 1.29999995, 0 }
+                            { 0.100000001, 0.100000001, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/PetNimblefoot_Skin6_Emote_Spark_tar_NimbleFootAura.tex"
+                numFrames: u16 = 2
+                texDiv: vec2 = { 2, 1 }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 5
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.600000024
+                }
+                particleLinger: option[f32] = {
+                    0.300000012
+                }
+                emitterName: string = "Conemesh_1"
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 100, 0 }
+                }
+                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
+                    scaleBirthScaleByBoundObjectSize: f32 = 0.00400000019
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/vfxhub/PetNimblefoot_Skin6_Emote_AnimeBurstMesh01_NimbleFootAura.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.229999244 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.0705882385, 0.0784313753, 0.105882354, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 0 }
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 1 }
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 1
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.200000003
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionMapName: string = "ASSETS/vfxhub/PetNimblefoot_Skin6_Emote_AnimeShapesMeshErosion_NimbleFootAura.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                isGroundLayer: flag = true
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 2.5, 4.5, 2.5 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.300000012
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.899999976, 0.899999976, 0.899999976 }
+                            { 1, 1.29999995, 1 }
+                            { 1.20000005, 1.29999995, 1.20000005 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/PetNimblefoot_Skin6_Emote_AnimeShapesMesh01_NimbleFootAura.tex"
+                birthUvScrollRate: embed = ValueVector2 {
+                    constantValue: vec2 = { 0.100000001, 0.5 }
+                }
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { 1, 0 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec2] = {
+                            { 1, 0 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 1.5, 1 }
+                }
+            }
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.119999997
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 55
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.5
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    1
+                                    1.39999998
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            0.5
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    0.100000001
+                }
+                emitterName: string = "Dark_Whirlwind2"
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 200, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 200, 0 }
+                        }
+                    }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 5, 5, 5 }
+                }
+                SpawnShape: pointer = VfxShapeLegacy {
+                    emitOffset: embed = ValueVector3 {
+                        constantValue: vec3 = { 0, 100, 0 }
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            times: list[f32] = {
+                                0
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 0, 60.0000038, 0 }
+                                { 0, 50, 0 }
+                            }
+                        }
+                    }
+                }
+                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
+                    scaleBirthScaleByBoundObjectSize: f32 = 0.00400000019
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/vfxhub/PetNimblefoot_Skin6_Emote_Helix_NimbleFootAura.sco"
+                    }
+                }
+                blendMode: u8 = 1
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.0705882385, 0.0705882385, 0.0705882385, 1 }
+                }
+                pass: i16 = 1
+                colorLookUpTypeY: u8 = 3
+                disableBackfaceCull: bool = true
+                isRandomStartFrame: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 280, 100, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    1
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 280, 100, 0 }
+                        }
+                    }
+                }
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 400, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    1
+                                    1.5
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 400, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 8, 8, 8 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 8, 8, 8 }
+                            { 12, 12, 8 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.200000003
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.600000024, 0.600000024, 0.600000024 }
+                            { 0.899999976, 0.899999976, 0.400000006 }
+                            { 2, 2, 0.100000001 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/PetNimblefoot_Skin6_Emote_AirHelix_TX_NimbleFootAura.tex"
+                numFrames: u16 = 4
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { -0.100000001, 0 }
+                }
+                texDiv: vec2 = { 2, 2 }
+            }
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.119999997
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 15
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.5
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    1
+                                    1.39999998
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            0.5
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    0.300000012
+                }
+                emitterName: string = "Dark_Whirlwind3"
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 200, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 200, 0 }
+                        }
+                    }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 5, 5, 5 }
+                }
+                SpawnShape: pointer = VfxShapeLegacy {
+                    emitOffset: embed = ValueVector3 {
+                        constantValue: vec3 = { 0, 100, 0 }
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            times: list[f32] = {
+                                0
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 0, 60.0000038, 0 }
+                                { 0, 50, 0 }
+                            }
+                        }
+                    }
+                }
+                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
+                    scaleBirthScaleByBoundObjectSize: f32 = 0.00400000019
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/vfxhub/PetNimblefoot_Skin6_Emote_Helix_NimbleFootAura.sco"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.549996197 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.0705882385, 0.0705882385, 0.0705882385, 1 }
+                }
+                pass: i16 = 1
+                colorLookUpTypeY: u8 = 3
+                disableBackfaceCull: bool = true
+                isRandomStartFrame: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 280, 100, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    1
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 280, 100, 0 }
+                        }
+                    }
+                }
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 400, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    1
+                                    1.5
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 400, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 8, 8, 8 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 8, 8, 8 }
+                            { 12, 12, 8 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 1, 0.600000024 }
+                            { 2, 2, 0.100000001 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/PetNimblefoot_Skin6_Emote_AirHelix_TX_NimbleFootAura.tex"
+                numFrames: u16 = 4
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { -0.100000001, 0 }
+                }
+                texDiv: vec2 = { 2, 2 }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 5
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    1
+                                    2.5
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            1
+                        }
+                    }
+                }
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Ein_1"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = VfxShapeCylinder {
+                    flags: u8 = 1
+                    height: f32 = 40
+                }
+                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
+                    scaleBirthScaleByBoundObjectSize: f32 = 0.00400000019
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/vfxhub/PetNimblefoot_Skin6_Emote_Smoke_Twirl_3_NimbleFootAura.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.890196085, 0.219607845, 0.0862745121, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec4] = {
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 1 }
+                        }
+                    }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 300
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.300000012
+                    erosionFeatherOut: f32 = 0.300000012
+                    erosionMapName: string = "ASSETS/vfxhub/PetNimblefoot_Skin6_Emote_Heal_Fire_Trail_NimbleFootAura.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                depthBiasFactors: vec2 = { -1, -30 }
+                disableBackfaceCull: bool = true
+                isRandomStartFrame: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 90, 180, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    180
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 90, 180, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { -0.600000024, 1, 0.600000024 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.600000024
+                                    1.29999995
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.600000024
+                                    1.20000005
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.600000024
+                                    1.29999995
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { -0.600000024, 1, 0.600000024 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0.899999976, 1 }
+                            { 1.60000002, 0.400000006, 1.60000002 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/PetNimblefoot_Skin6_Emote_Wisps34_NimbleFootAura.tex"
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, 1 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec2] = {
+                            { 0, 1 }
+                        }
+                    }
+                }
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, 0.300000012 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.0697807148
+                            0.144875035
+                            0.206343681
+                            0.284523666
+                            0.381061733
+                            0.559383392
+                            0.747436821
+                            0.996688724
+                        }
+                        values: list[vec2] = {
+                            { 0, 0.112912387 }
+                            { 0, 0.115116172 }
+                            { 0, 0.113356642 }
+                            { 0, 0.109750733 }
+                            { 0, 0.109833211 }
+                            { 0, 0.0921698362 }
+                            { 0, 0.0668896586 }
+                            { 0, 0.0622708946 }
+                            { 0, 0.0457752943 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 1, 1.5 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/vfxhub/PetNimblefoot_Skin6_Emote_Smoke_Twirl_Return_Mult_NimbleFootAura.tex"
+                    texAddressModeMult: u8 = 2
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
+                        constantValue: vec2 = { 0, 0.5 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec2] = {
+                                { 0, 0.5 }
+                            }
+                        }
+                    }
+                    birthUVOffsetMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0, -0.899999976 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 15
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.25
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            1
+                        }
+                    }
+                }
+                lifetime: option[f32] = {
+                    4
+                }
+                fieldCollectionDefinition: pointer = VfxFieldCollectionDefinitionData {
+                    fieldAttractionDefinitions: list[embed] = {
+                        VfxFieldAttractionDefinitionData {
+                            radius: embed = ValueFloat {
+                                constantValue: f32 = 500
+                            }
+                            acceleration: embed = ValueFloat {
+                                constantValue: f32 = 200
+                            }
+                        }
+                    }
+                    fieldNoiseDefinitions: list[embed] = {
+                        VfxFieldNoiseDefinitionData {
+                            radius: embed = ValueFloat {
+                                constantValue: f32 = 500
+                            }
+                            frequency: embed = ValueFloat {
+                                constantValue: f32 = 300
+                            }
+                            velocityDelta: embed = ValueFloat {
+                                constantValue: f32 = 70
+                            }
+                            axisFraction: vec3 = { 0.25, 0.5, 0.25 }
+                        }
+                    }
+                }
+                emitterName: string = "Embers1"
+                birthOrbitalVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 1, 0 }
+                }
+                worldAcceleration: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, 150, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 150, 0 }
+                        }
+                    }
+                }
+                SpawnShape: pointer = VfxShapeCylinder {
+                    radius: f32 = 50
+                    height: f32 = 10
+                }
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.0705882385, 0.0705882385, 0.0705882385, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 1 }
+                        }
+                    }
+                }
+                pass: i16 = 25
+                depthBiasFactors: vec2 = { -1, -1 }
+                isDirectionOriented: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 0, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0 }
+                        }
+                    }
+                }
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 500, 0 }
+                }
+                directionVelocityScale: f32 = 0.00100000005
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 30, 30, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 30, 30, 0 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                            { 1, 1, 0 }
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/PetNimblefoot_Skin6_Emote_Glow5_NimbleFootAura.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                emitterName: string = "Ground_Dirt_Impact 1"
+                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
+                    scaleBirthScaleByBoundObjectSize: f32 = 0.00400000019
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.0705882385, 0.0705882385, 0.0705882385, 0.368627459 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 3
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.300000012
+                    erosionFeatherOut: f32 = 0.300000012
+                    erosionSliceWidth: f32 = 1.20000005
+                    erosionMapName: string = "ASSETS/vfxhub/PetNimblefoot_Skin6_Emote_Tar_WispMult_NimbleFootAura.tex"
+                }
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                useNavmeshMask: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 90, 1, 90 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    1
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 90, 1, 90 }
+                        }
+                    }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 180, 390, 0 }
+                }
+                texture: string = "ASSETS/vfxhub/PetNimblefoot_Skin6_Emote_Explosion_groundBurn_NimbleFootAura.tex"
+                paletteDefinition: pointer = VfxPaletteDefinitionData {
+                    paletteTexture: string = "ASSETS/vfxhub/PetNimblefoot_Skin6_Emote_TFT_Glb_Gradient_NimbleFootAura.tex"
+                    paletteSelector: embed = ValueVector3 {
+                        constantValue: vec3 = { 10, 0, 0 }
+                    }
+                    paletteCount: i32 = 16
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Ground_Glow_Dark2"
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 5, 0 }
+                }
+                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
+                    scaleBirthScaleByBoundObjectSize: f32 = 0.00400000019
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.0666666701, 0.0235294122, 0.0235294122, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 0 }
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 1 }
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -50
+                alphaRef: u8 = 0
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isRotationEnabled: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 90, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 250, 1, 1 }
+                }
+                texture: string = "ASSETS/vfxhub/PetNimblefoot_Skin6_Emote_Aura_Self_NimbleFootAura.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Ground_Glow_Dark3"
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 100, 0 }
+                }
+                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
+                    scaleBirthScaleByBoundObjectSize: f32 = 0.00400000019
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.439993888 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.505882382, 0.152941182, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 0 }
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 1 }
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 600
+                alphaRef: u8 = 0
+                softParticleParams: pointer = VfxSoftParticleDefinitionData {
+                    deltaIn: f32 = 30
+                }
+                depthBiasFactors: vec2 = { -1, -55 }
+                isUniformScale: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 90, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 155, 1, 1 }
+                }
+                texture: string = "ASSETS/vfxhub/PetNimblefoot_Skin6_Emote_Aura_Self_NimbleFootAura.tex"
+            }
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.119999997
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 15
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.400000006
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.400000006
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            0.400000006
+                        }
+                    }
+                }
+                emitterName: string = "Ground_Impact1"
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 400, 0, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.699999988
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.200000003
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 400, 0, 0 }
+                        }
+                    }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 5, 5, 5 }
+                }
+                worldAcceleration: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, -20, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, -20, 0 }
+                        }
+                    }
+                }
+                SpawnShape: pointer = VfxShapeLegacy {
+                    emitOffset: embed = ValueVector3 {
+                        constantValue: vec3 = { 1, 0, 0 }
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[vec3] = {
+                                { 30, 0, 0 }
+                                { 50, 0, 0 }
+                            }
+                        }
+                    }
+                    emitRotationAngles: list[embed] = {
+                        ValueFloat {
+                            constantValue: f32 = 1
+                            dynamics: pointer = VfxAnimatedFloatVariableData {
+                                probabilityTables: list[pointer] = {
+                                    VfxProbabilityTableData {
+                                        keyTimes: list[f32] = {
+                                            0
+                                            1
+                                        }
+                                        keyValues: list[f32] = {
+                                            0
+                                            360
+                                        }
+                                    }
+                                }
+                                times: list[f32] = {
+                                    0
+                                }
+                                values: list[f32] = {
+                                    1
+                                }
+                            }
+                        }
+                    }
+                    emitRotationAxes: list[vec3] = {
+                        { 0, 1.00000012, 0 }
+                    }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 30, 0 }
+                }
+                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
+                    scaleBirthScaleByBoundObjectSize: f32 = 0.00400000019
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.0705882385, 0.0705882385, 0.0705882385, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.400000006
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                isDirectionOriented: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 60, 360, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 150, 375, 30 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.600000024
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.600000024
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.600000024
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 150, 375, 30 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.600000024, 0.600000024, 0.600000024 }
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/PetNimblefoot_Skin6_Emote_Smoke_Vert_NimbleFootAura.tex"
+                uvMode: u8 = 2
+                birthUvScrollRate: embed = ValueVector2 {
+                    constantValue: vec2 = { 1.79999995, 0 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    -0.400000006
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    0
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec2] = {
+                            { 1.79999995, 0 }
+                        }
+                    }
+                }
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { 0.5, 0.5 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec2] = {
+                            { 0.5, 0.5 }
+                        }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 20
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.25
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            1.25
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    0.5
+                }
+                emitterName: string = "ShadowWisps2"
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 150, 0 }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                }
+                SpawnShape: pointer = VfxShapeBox {
+                    flags: u8 = 1
+                    Size: vec3 = { 10, 10, 10 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { -25, 30, 0 }
+                }
+                blendMode: u8 = 4
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.839993894, 0.269993126, 0.100007631, 0.779995441 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.0645756423
+                            0.145756453
+                            0.249446496
+                            0.396678954
+                            0.715867162
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 0 }
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 0.0974994302 }
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 0.70199585 }
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 0.779995441 }
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 0.714995801 }
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 0.149881467 }
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 300
+                alphaRef: u8 = 1
+                softParticleParams: pointer = VfxSoftParticleDefinitionData {
+                    deltaIn: f32 = 40
+                }
+                depthBiasFactors: vec2 = { -1, -50 }
+                particleIsLocalOrientation: flag = true
+                isRandomStartFrame: flag = true
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    constantValue: vec3 = { 20, 0, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 20, 0, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 60, 100, 30 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.15189302
+                            0.288518697
+                            0.437978595
+                            0.676538765
+                            1.01228881
+                        }
+                        values: list[vec3] = {
+                            { 0.493251532, 0.493251532, 0.493251532 }
+                            { 0.59179461, 0.599134266, 0.599134266 }
+                            { 0.813149452, 0.818178833, 0.818178833 }
+                            { 0.899999976, 0.985026121, 0.985026121 }
+                            { 1, 1.14744473, 1.12441075 }
+                            { 1.10000002, 1.31095934, 1.31095934 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/PetNimblefoot_Skin6_Emote_fog_NimbleFootAura.tex"
+                numFrames: u16 = 16
+                texDiv: vec2 = { 4, 4 }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 20
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            1
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    2
+                }
+                emitterName: string = "blast1"
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 400, 0, 400 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.600000024
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    12
+                                }
+                                keyValues: list[f32] = {
+                                    0.600000024
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 400, 0, 400 }
+                        }
+                    }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 5, 0, 5 }
+                }
+                worldAcceleration: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, 15, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 15, 0 }
+                        }
+                    }
+                }
+                SpawnShape: pointer = VfxShapeCylinder {
+                    height: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 35, 0 }
+                }
+                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
+                    scaleBirthScaleByBoundObjectSize: f32 = 0.00400000019
+                }
+                blendMode: u8 = 1
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.325490206, 0.176470593, 0.176470593, 0.709803939 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.449999988
+                            0.800000012
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 0 }
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 0.709803939 }
+                            { 1, 1, 1, 0.475563794 }
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -150
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        constantValue: f32 = 1.20000005
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0.150000006
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1.20000005
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.200000003
+                    erosionSliceWidth: f32 = 1.70000005
+                    erosionMapName: string = "ASSETS/vfxhub/PetNimblefoot_Skin6_Emote_SmokeErode_NimbleFootAura.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isRandomStartFrame: flag = true
+                isGroundLayer: flag = true
+                useNavmeshMask: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 90, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 1, 90, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 50, 1, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    1
+                                    2
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 50, 1, 0 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.5, 1, 1 }
+                            { 1, 2, 2 }
+                            { 1.5, 1.5, 1.5 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/PetNimblefoot_Skin6_Emote_Sion_Skin05_Sl_Dust_01_NimbleFootAura.tex"
+                numFrames: u16 = 4
+                texDiv: vec2 = { 2, 2 }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.5
+                }
+                particleLinger: option[f32] = {
+                    0.5
+                }
+                emitterName: string = "mesh_ground3"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -30, 0 }
+                }
+                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
+                    scaleBirthScaleByBoundObjectSize: f32 = 0.00400000019
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/vfxhub/PetNimblefoot_Skin6_Emote_weaponswipe_NimbleFootAura.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.192156866, 0.211764708, 0.290196091, 0.600000024 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.200000003
+                            0.400000006
+                            0.600000024
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 0 }
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 0.600000024 }
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 0.190588236 }
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 0 }
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -100
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.100000001
+                                1
+                            }
+                            values: list[f32] = {
+                                0.100000001
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.150000006
+                    erosionSliceWidth: f32 = 1
+                    erosionMapName: string = "ASSETS/vfxhub/PetNimblefoot_Skin6_Emote_Erode_NimbleFootAura.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 0, 0, 1, 0 }
+                    }
+                }
+                disableBackfaceCull: bool = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 1, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    1
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 1, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0.400000006, 1.14999998, 0.400000006 }
+                }
+                texture: string = "ASSETS/vfxhub/PetNimblefoot_Skin6_Emote_Smoke_Trail_NimbleFootAura.tex"
+                birthUvScrollRate: embed = ValueVector2 {
+                    constantValue: vec2 = { 2, 0 }
+                }
+                texDiv: vec2 = { 0.5, 1 }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 10
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1.39999998
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            1
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    0.5
+                }
+                emitterName: string = "mesh_ground4"
+                worldAcceleration: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, 50, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 50, 0 }
+                        }
+                    }
+                }
+                SpawnShape: pointer = VfxShapeBox {
+                    Size: vec3 = { 0, 30, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 20, 0 }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/vfxhub/PetNimblefoot_Skin6_Emote_weaponswipe6_NimbleFootAura.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.0705882385, 0.0705882385, 0.0705882385, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 0.670588255 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -100
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0.5
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.25
+                    erosionSliceWidth: f32 = 1
+                    erosionMapName: string = "ASSETS/vfxhub/PetNimblefoot_Skin6_Emote_1Q_SmokeErode_NimbleFootAura.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 0.125490203, 0.576470613, 1, 0 }
+                    }
+                }
+                disableBackfaceCull: bool = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 1, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    1
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 1, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0.600000024, 2, 0.5 }
+                }
+                texture: string = "ASSETS/vfxhub/PetNimblefoot_Skin6_Emote_Wisps36_NimbleFootAura.tex"
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { 0.300000012, 0 }
+                }
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 1.29999995, 0 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 0.519999981, 0 }
+                            { 0.129999995, 0 }
+                        }
+                    }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/vfxhub/PetNimblefoot_Skin6_Emote_Mult_NimbleFootAura.tex"
+                    birthUvScrollRateMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0.5, 0 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 20
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 2.5
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.200000003
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            2.5
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    2
+                }
+                emitterName: string = "spark_skin1"
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { -10, 700, 10 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    0.800000012
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    1
+                                    1.5
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    1
+                                    10
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { -10, 700, 10 }
+                        }
+                    }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 2, 2, 2 }
+                }
+                SpawnShape: pointer = VfxShapeBox {
+                    flags: u8 = 1
+                    Size: vec3 = { 80, 50, 80 }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.62999922 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.0980392173, 0.113725491, 0.152941182, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 0 }
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 1 }
+                            { 0.0705882385, 0.0705882385, 0.0705882385, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 5
+                isDirectionOriented: flag = true
+                isRandomStartFrame: flag = true
+                directionVelocityScale: f32 = 0.00800000038
+                directionVelocityMinScale: f32 = 1.29999995
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 40, 20, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.300000012
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.300000012
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 40, 20, 0 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                            { 1, 0.5, 0 }
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/vfxhub/PetNimblefoot_Skin6_Emote_Ash_NimbleFootAura.tex"
+                numFrames: u16 = 4
+                texDiv: vec2 = { 2, 2 }
+            }
+        }
+        particleName: string = "NimbleFootAura"
+        particlePath: string = "NimbleFootAura"
+        flags: u16 = 197
+    }
+
+
 
 
 
@@ -17361,6 +19722,7 @@ entries: map[hash,embed] = {
             "Final Form" = "Final Form"
             "FireAuraIdle" = "FireAuraIdle"
             "SettAura" = "SettAura"
+            "NimbleFootAura" = "NimbleFootAura"
         }
      }
 } 
