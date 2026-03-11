@@ -908,6 +908,43 @@
       ],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2026-03-11"
+    },
+    "spiritblossomshield": {
+      "name": "Spiritblossom_Shield",
+      "description": "",
+      "emitters": 22,
+      "category": "shield",
+      "file": "auravfx.py",
+      "assets": [
+        "collection/assets/vfxhub/color-hold.SKINS_Morgana_Skin80_Spiritblossom_Shield.tex",
+        "collection/assets/vfxhub/Morgana_Skin80_BA_FirePillar.SKINS_Morgana_Skin80_Spiritblossom_Shield.tex",
+        "collection/assets/vfxhub/Morgana_Skin80_ShieldDecal_01.SKINS_Morgana_Skin80_Spiritblossom_Shield.tex",
+        "collection/assets/vfxhub/Morgana_Skin80_Q_BackDrop.SKINS_Morgana_Skin80_Spiritblossom_Shield.tex",
+        "collection/assets/vfxhub/Morgana_Skin80_Glow2.SKINS_Morgana_Skin80_Spiritblossom_Shield.tex",
+        "collection/assets/vfxhub/Base_white_RGB.SKINS_Morgana_Skin80_Spiritblossom_Shield.tex",
+        "collection/assets/vfxhub/Morgana_Skin80_Q_Fire_Trail_Up.SKINS_Morgana_Skin80_Spiritblossom_Shield.tex",
+        "collection/assets/vfxhub/Morgana_Skin80_Glow.SKINS_Morgana_Skin80_Spiritblossom_Shield.tex",
+        "collection/assets/vfxhub/Morgana_Skin80_R_Wisps_Mult.SKINS_Morgana_Skin80_Spiritblossom_Shield.tex",
+        "collection/assets/vfxhub/Morgana_Skin80_NoiseD.SKINS_Morgana_Skin80_Spiritblossom_Shield.tex",
+        "collection/assets/vfxhub/Morgana_Skin80_Q_FlameQuads.SKINS_Morgana_Skin80_Spiritblossom_Shield.tex",
+        "collection/assets/vfxhub/Morgana_Skin80_ShieldDecal_02.SKINS_Morgana_Skin80_Spiritblossom_Shield.tex",
+        "collection/assets/vfxhub/Morgana_Skin80_BA_CloudTxt.SKINS_Morgana_Skin80_Spiritblossom_Shield.tex",
+        "collection/assets/vfxhub/Morgana_Skin80_E_Shield_RingBurnOff.SKINS_Morgana_Skin80_Spiritblossom_Shield.tex",
+        "collection/assets/vfxhub/Petals_01.SKINS_Morgana_Skin80_Spiritblossom_Shield.tex",
+        "collection/assets/vfxhub/Morgana_Skin80_Q_StardustMoteAlpha.SKINS_Morgana_Skin80_Spiritblossom_Shield.tex",
+        "collection/assets/vfxhub/Morgana_Skin80_CircleGlow.SKINS_Morgana_Skin80_Spiritblossom_Shield.tex",
+        "collection/assets/vfxhub/Morgana_Skin80_E_ShieldMesh.SKINS_Morgana_Skin80_Spiritblossom_Shield.scb",
+        "collection/assets/vfxhub/Shield_OptimizedUVs.SKINS_Morgana_Skin80_Spiritblossom_Shield.scb",
+        "collection/assets/vfxhub/Morgana_Skin80_W_weaponswipe6.SKINS_Morgana_Skin80_Spiritblossom_Shield.scb",
+        "collection/assets/vfxhub/Morgana_Skin80_Q_Smoke_Erode.SKINS_Morgana_Skin80_Spiritblossom_Shield.tex",
+        "collection/assets/vfxhub/Morgana_Base_E_SmokeErode.SKINS_Morgana_Skin80_Spiritblossom_Shield.tex",
+        "collection/assets/vfxhub/Morgana_Skin80_Q_FlameErosion.SKINS_Morgana_Skin80_Spiritblossom_Shield.tex",
+        "collection/assets/vfxhub/Morgana_Skin20_Q_Wisps.SKINS_Morgana_Skin80_Spiritblossom_Shield.tex",
+        "collection/assets/vfxhub/Morgana_Skin80_Q_Trail01.SKINS_Morgana_Skin80_Spiritblossom_Shield.tex",
+        "collection/assets/vfxhub/Veigar_Skin41_Q_Mark_Mult.SKINS_Morgana_Skin80_Spiritblossom_Shield.tex"
+      ],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2026-03-11"
     }
   }
 }
