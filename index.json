@@ -888,6 +888,26 @@
       "assets": [],
       "uploaded_by": "FrogCsLoL",
       "upload_date": "2026-02-26"
+    },
+    "spiritblossomidle": {
+      "name": "Spiritblossom_Idle",
+      "description": "",
+      "emitters": 9,
+      "category": "auras",
+      "file": "auravfx.py",
+      "assets": [
+        "collection/assets/vfxhub/Irelia_Base_Z_Glow_Bright.SKINS_Irelia_Skin55_Spiritblossom_Idle.tex",
+        "collection/assets/vfxhub/Irelia_Skin55_BA_Spotlight.SKINS_Irelia_Skin55_Spiritblossom_Idle.tex",
+        "collection/assets/vfxhub/Morgana_Skin80_FlowerPetalz.SKINS_Irelia_Skin55_Spiritblossom_Idle.tex",
+        "collection/assets/vfxhub/Sett_Skin38_Petal.SKINS_Irelia_Skin55_Spiritblossom_Idle.tex",
+        "collection/assets/vfxhub/3026_Items_StardustMote.StrawberryRebuild_Spiritblossom_Idle.tex",
+        "collection/assets/vfxhub/Irelia_Skin45_ball32_02.SKINS_Irelia_Skin55_Spiritblossom_Idle.tex",
+        "collection/assets/vfxhub/Irelia_Skin55_Wing_Trail_01.SKINS_Irelia_Skin55_Spiritblossom_Idle.tex",
+        "collection/assets/vfxhub/Kaisa_Base_R_SmokeErode.SKINS_Irelia_Skin55_Spiritblossom_Idle.tex",
+        "collection/assets/vfxhub/Morgana_Skin80_R_RingMult.SKINS_Irelia_Skin55_Spiritblossom_Idle.tex"
+      ],
+      "uploaded_by": "FrogCsLoL",
+      "upload_date": "2026-03-11"
     }
   }
 }
