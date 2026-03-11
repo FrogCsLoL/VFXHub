@@ -15457,7 +15457,6 @@ entries: map[hash,embed] = {
         flags: u16 = 197
     }
 
-
      "Characters/Aurora/Skins/Skin0/Resources" = ResourceResolver {
         resourceMap: map[hash,link] = {
             "cherryblossomauravfx" = "cherryblossomauravfx"
